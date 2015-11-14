@@ -1,0 +1,26 @@
+2015/10/23 09:10:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\local\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://localhost/index.php
+---
+2015/10/23 09:10:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "au".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('au')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\local\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/au
+---
+2015/10/23 09:10:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/bootstrap/images/logo.jpg".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/bootstra...')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\local\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/bootstrap/images/logo.jpg
+HTTP_REFERER=http://localhost/user/login
+---

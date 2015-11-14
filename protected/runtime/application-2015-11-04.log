@@ -1,0 +1,27 @@
+2015/11/04 09:27:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "new/misc/js/login2015.js".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('new/misc/js/log...')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\local\public\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/new/misc/js/login2015.js
+HTTP_REFERER=http://localhost/
+---
+2015/11/04 09:27:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\local\public\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://localhost/
+---
+2015/11/04 14:35:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "new/misc/js/login2015.js".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('new/misc/js/log...')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\local\public\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/new/misc/js/login2015.js
+HTTP_REFERER=http://localhost/
+---

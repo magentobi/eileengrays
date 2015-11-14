@@ -1,0 +1,20 @@
+{
+    "name": "simbigo/openerp-api",
+	"description": "PHP API for OpenERP",
+    "authors": [
+        {
+            "name": "Andrey Bondarev",
+            "email": "bondarew.andrey@gmail.com"
+        }
+    ],
+	"license": "MIT",
+    "require": {
+		"php": ">=5.4.0"
+    },
+	"autoload": {
+		"classmap": [
+			"OpenERP.php",
+			"XmlRpcClient.php"
+		]
+	}
+}

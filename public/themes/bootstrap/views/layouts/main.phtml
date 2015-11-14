@@ -1,0 +1,264 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Eileen Grays产品中心</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content=" " />
+    <!--[if IE]>
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7">
+    <![endif]-->
+    <link rel="stylesheet" href="<?php echo Yii::app()->baseUrl ?>/themes/datacenter/css/style1.css" />
+    <link rel="stylesheet" href="<?php echo Yii::app()->baseUrl ?>/themes/datacenter/css/colorbox.css" />
+    <link rel="stylesheet" href="<?php echo Yii::app()->baseUrl ?>/themes/datacenter/css/sticky.min.css" />
+    <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->baseUrl ?>/themes/datacenter/lightbox/style5/style.css"/>
+    <link rel="apple-touch-icon" href="<?php echo Yii::app()->baseUrl ?>/themes/datacenter/images/apple-touch-icon.png"/>
+    <link rel="shortcut icon" href="<?php echo Yii::app()->baseUrl ?>/themes/datacenter/images/favicon.ico"/>
+    <link rel="stylesheet" href="<?php echo Yii::app()->baseUrl ?>/themes/datacenter/styleswitcher/styleswitcher.css" />
+    <link rel="stylesheet" href="<?php echo Yii::app()->baseUrl ?>/themes/datacenter/css/dataTables.jqueryui.css" />
+    <script src="<?php echo Yii::app()->baseUrl ?>/themes/datacenter/js/modernizr-1.7.min.js"></script>
+    <style>
+        .ui-combobox {
+            position: relative;
+            display: block;
+            float: left;
+            margin: 5px;
+            margin-right: 10px;
+            height: 32px;
+        }
+        .ui-combobox-input {
+            margin: 0;
+            width: 127px;
+            height: 32px;
+            height: 24px	9;
+            padding: 0 0 0 6px;
+            padding: 8px 0 0 6px	9;
+            float: left;
+            border: 1px solid #CCC;
+            margin: 0 -5px 0px 0;
+            -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
+            border-radius: 5px;
+            background: white;
+        }
+        .ui-button{
+            height: 32px;
+        }
+        #user_msg ul{
+            position:absolute;
+            top:13px;
+            right:0;
+            width:200px;
+            z-index: 100;
+            background: #fff;
+            border:1px solid #eee;
+            padding:5px;
+        }
+        #user_msg ul li{
+            display:block;
+            position:static;
+        }
+        #user_msg a span{
+            color:red;
+        }
+
+    </style>
+</head>
+<body>
+<div id="container">
+    <header>
+        <div id="meta-wrap">
+            <ul id="user-meta">
+                <li>
+                                            <span class="udt">
+                                                系统时间：<?php echo date('Y-m-d H:i:s');?>
+                                            </span>
+                    欢迎登录,
+                    <img src="<?php echo Yii::app()->baseUrl ?>/themes/datacenter/images/icons/9/005_13.png" alt="" />
+                    <a href="#" title="">
+                        <b><?php echo Yii::app()->request->cookies['name']->value; ?></b>
+                    </a>
+                </li>
+                <li>|</li>
+                <li id="user_msg">
+                    <a href="<?php echo $this->createUrl('userMsg/index',array('UserMsg[reciver_user_id]'=>Yii::app()->user->id)); ?>">消息(<span></span>)</a>
+                    <ul class="corners" style="display:none;"></ul>
+                </li>
+                <li>|</li>
+                <li>
+                    <img src="<?php echo Yii::app()->baseUrl ?>/themes/datacenter/images/icons/9/005_12.png" alt="" /> <a href="<?php echo $this->createUrl('site/logout') ?>">退出</a>
+                </li>
+            </ul>
+        </div>
+        <div id="menu-bar" class="corners shadow">
+            <div class="menu-bar-inner corners">
+                <a href="<?php echo $this->createUrl('site/index'); ?>" title="" id="logo">
+                    <h1>Eileen Grays 产品中心</h1>
+                </a>
+                <?php
+                //栏目生成
+                $rid = (int) Yii::app()->request->cookies['rid']->value;
+                $rmenu = MRole::model()->find('s_name=' . $rid);
+                $rmenu = $rmenu->attributes;
+                $rmenu = explode(',', $rmenu['menu_pid']);
+                $menus = array();
+                $cr = new CDbCriteria;
+                $cr->order = 'm_order ASC';
+                foreach (SysMenu::model()->findAll($cr) as $m) {
+                    if ($m->m_parent == 0 && in_array($m->id, $rmenu)) {
+                        $menus[$m->id]['parent'] = $m->attributes;
+                    } elseif (in_array($m->id, $rmenu)) {
+                        $menus[$m->m_parent]['sub'][] = $m->attributes;
+                    }
+                }
+                ?>
+                <ul id="menu">
+                    <?php
+                    foreach ($menus as $menu):
+                        ?>
+                        <li class="sep">
+                            <a href="<?php echo $this->createUrl($menu['parent']['m_path']); ?>"><?php echo $menu['parent']['m_name']; ?></a>
+                            <?php if (isset($menu['sub'])): ?>
+                                <ul class="second">
+                                    <?php
+                                    foreach ($menu['sub'] as $sm):
+                                        ?>
+                                        <li>
+                                            <a href="<?php echo $this->createUrl($sm['m_path']); ?>" title=""><?php echo $sm['m_name']; ?></a>
+                                        </li>
+                                    <?php endforeach; ?>
+                                </ul>
+                                <?php
+                            endif;
+                            ?>
+                        </li>
+                        <?php
+                    endforeach;
+                    ?>
+                </ul>
+                <form action="" method="post" id="search">
+                    <div>
+                        <input type="text" name="s" onFocus="if (this.value == '输入关键字查询...')
+                                                            this.value = '';" onBlur="if (this.value == '')
+                                                                        this.value = '输入关键字查询...';" value="输入关键字查询..." id="input-s" />
+                        <input type="submit" value="" name="submit" id="search-submit" />
+                    </div>
+                    <a href="javascript:void(null);" title="" class="<?php echo isset($_REQUEST['aId']) ? 'open' : 'close'; ?>" id="toggle-menu"></a>
+                </form>
+            </div>
+        </div>
+
+        <div id="breadcrumbs" class="corners shadow">
+            <p class="left"><img src="<?php echo Yii::app()->baseUrl ?>/themes/datacenter/images/icons/9/005_08.png" alt="" />
+                <?php
+                $this->widget('zii.widgets.CBreadcrumbs', array(
+                    'links' => $this->breadcrumbs,
+                    'htmlOptions' => array('style' => 'margin-top:5px'),
+                    'tagName' => 'a'
+                ));
+                ?>
+            </p>
+            <p class="right"></p>
+            <div id="mastertoggle">
+                <a href="javascript:void(null);" title="Close all boxes" class="togglecloseall corners tip"></a>
+                <a href="javascript:void(null);" title="Open all boxes" class="toggleopenall corners tip"></a>
+            </div>
+        </div><!-- END "#breadcrumbs" -->
+    </header><!-- END header -->
+    <!-- // content starts here // -->
+    <div id="content">
+        <?php echo $content; ?>
+    </div><!-- END "#content" -->
+    <!-- // footer starts here // -->
+</div><!-- END "#container" -->
+<footer>
+    <p class="left">Eileen Grays产品中心</p>
+    <p class="right">Copyright &copy; <?php echo date('Y'); ?> -
+        <a href="http://www.parrotuncle.com/" title="">Parrot Uncle</a> by
+        <a href="http://www.sensationofnight.com/" title="">Sensation Of Night</a>
+    </p>
+</footer><!-- END footer -->
+
+
+<?php
+$cs = Yii::app()->getClientScript();
+$cs->registerCssFile($cs->getCoreScriptUrl() . '/jui/css/base/jquery-ui.css');
+$cs->registerCoreScript('jquery');
+$cs->registerScriptFile($cs->getCoreScriptUrl() . '/jui/js/jquery-ui.min.js');
+$cs->registerScriptFile(Yii::app()->baseUrl . '/themes/datacenter/js/combobox.js');
+$cs->registerScriptFile(Yii::app()->baseUrl . '/themes/datacenter/js/jquery.dataTables.min.js');
+?>
+<script src="<?php echo Yii::app()->baseUrl ?>/themes/datacenter/js/jquery.form.min.js"></script>
+<script src="<?php echo Yii::app()->baseUrl ?>/themes/datacenter/js/jquery.colorbox-min.js"></script>
+<script src="<?php echo Yii::app()->baseUrl ?>/themes/datacenter/js/pirobox-min.js"></script>
+<script src="<?php echo Yii::app()->baseUrl ?>/themes/datacenter/js/jquery.select_skin.js"></script>
+<script src="<?php echo Yii::app()->baseUrl ?>/themes/datacenter/js/jquery.tipsy.js"></script>
+<script src="<?php echo Yii::app()->baseUrl ?>/themes/datacenter/js/jquery.tweet.js"></script>
+<script src="<?php echo Yii::app()->baseUrl ?>/themes/datacenter/js/jquery.tablesorter.js"></script>
+<script src="<?php echo Yii::app()->baseUrl ?>/themes/datacenter/js/treeview.js"></script>
+<script src="<?php echo Yii::app()->baseUrl ?>/themes/datacenter/js/jquery.cookie.js"></script>
+<script src="<?php echo Yii::app()->baseUrl ?>/themes/datacenter/js/main.js"></script>
+<script src="<?php echo Yii::app()->baseUrl ?>/themes/datacenter/js/sticky.min.js"></script>
+<script src="<?php echo Yii::app()->baseUrl ?>/themes/datacenter/styleswitcher/styleswitcher.js"></script>
+<script src="<?php echo Yii::app()->baseUrl ?>/themes/datacenter/js/jquery.cascade-select.js"></script>
+<script>
+    var neworder_token = '';
+    $(function() {
+        $('div.inbox-sf select').combobox();
+        $('.enable_search select').combobox();
+        //window.setInterval('checkNewOrder()', 3000);
+    });
+    function checkNewOrder(){
+
+        $.get('<?php echo Yii::app()->createUrl('orders/api', array('action' => 'checkneworder'));?>', {}, function(data){
+            if(data.num > 0 && neworder_token!==data.token){
+                $(".sticky-queue div").fadeOut('fast');
+                var message = '<h1>最新未处理订单</h1><ul style="list-style:none;">';
+                $.each(data.data, function(n,i){
+                    message += '<li><a href="<?php echo Yii::app()->createUrl('orders/view')?>?id='+i.id+'">新订单：'+i.increment_id+'</a></li>';
+                });
+                $('body').append('<embed src="<?php echo Yii::app()->baseUrl ?>/themes/datacenter/mp3/567.mp3" autostart="true" hidden="true" loop="false">');
+                $.sticky(message+'</ul>');
+                neworder_token = data.token;
+            }
+
+
+        }, 'json');
+    }
+</script>
+
+
+<script>
+    // 用户消息实时调用
+    $(function(){
+        $("#user_msg").hover(
+            function(){
+                $("#user_msg ul").stop(true,true).slideDown();
+            },
+            function(){
+                $("#user_msg ul").stop(true,true).slideUp();
+            }
+        );
+    });
+    getMsgList();
+    setInterval(getMsgList,5000);
+    function getMsgList(){
+        $.getJSON('<?php echo $this->createUrl('userMsg/msgList'); ?>', {'UserMsg[reciver_user_id]': '<?php echo Yii::app()->user->id ?>'}, function(json, textStatus) {
+
+            if (textStatus=='success') {
+                var count = json.length>0?json.length:0;
+                var list = '';
+                $.each(json,function(i,n){
+                    var url = "<?php echo $this->createUrl('userMsg/view'); ?>";
+                    list += "<li><a href='"+url+"?id="+n["id"]+"'>"+n["content"]+"</a></li>";
+                });
+                $("#user_msg>a>span").text(count);
+                $("#user_msg>ul").html(list);
+
+            }
+        });
+    }
+</script>
+
+</body>
+</html>

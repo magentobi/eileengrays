@@ -1,0 +1,60 @@
+2015/10/15 09:39:35 [error] [php] Illegal offset type (E:\www\eileengrays\framework\web\CClientScript.php:660)
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 E:\www\eileengrays\framework\web\CController.php(286): DefaultController->runAction()
+#2 E:\www\eileengrays\framework\web\CController.php(265): DefaultController->runActionWithFilters()
+#3 E:\www\eileengrays\framework\web\CWebApplication.php(282): DefaultController->run()
+#4 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 E:\www\eileengrays\apps\local\public\index.php(12): CWebApplication->run()
+REQUEST_URI=/index.php?r=goods
+2015/10/15 10:16:49 [error] [php] Array to string conversion (E:\www\eileengrays\framework\web\CClientScript.php:660)
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 E:\www\eileengrays\framework\web\CController.php(286): DefaultController->runAction()
+#2 E:\www\eileengrays\framework\web\CController.php(265): DefaultController->runActionWithFilters()
+#3 E:\www\eileengrays\framework\web\CWebApplication.php(282): DefaultController->run()
+#4 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 E:\www\eileengrays\apps\local\public\index.php(12): CWebApplication->run()
+REQUEST_URI=/index.php?r=goods
+2015/10/15 10:17:01 [error] [php] Array to string conversion (E:\www\eileengrays\framework\web\CClientScript.php:660)
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 E:\www\eileengrays\framework\web\CController.php(286): DefaultController->runAction()
+#2 E:\www\eileengrays\framework\web\CController.php(265): DefaultController->runActionWithFilters()
+#3 E:\www\eileengrays\framework\web\CWebApplication.php(282): DefaultController->run()
+#4 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 E:\www\eileengrays\apps\local\public\index.php(12): CWebApplication->run()
+REQUEST_URI=/index.php?r=goods
+2015/10/15 10:17:02 [error] [php] Array to string conversion (E:\www\eileengrays\framework\web\CClientScript.php:660)
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 E:\www\eileengrays\framework\web\CController.php(286): DefaultController->runAction()
+#2 E:\www\eileengrays\framework\web\CController.php(265): DefaultController->runActionWithFilters()
+#3 E:\www\eileengrays\framework\web\CWebApplication.php(282): DefaultController->run()
+#4 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 E:\www\eileengrays\apps\local\public\index.php(12): CWebApplication->run()
+REQUEST_URI=/index.php?r=goods
+2015/10/15 10:17:03 [error] [php] Array to string conversion (E:\www\eileengrays\framework\web\CClientScript.php:660)
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 E:\www\eileengrays\framework\web\CController.php(286): DefaultController->runAction()
+#2 E:\www\eileengrays\framework\web\CController.php(265): DefaultController->runActionWithFilters()
+#3 E:\www\eileengrays\framework\web\CWebApplication.php(282): DefaultController->run()
+#4 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 E:\www\eileengrays\apps\local\public\index.php(12): CWebApplication->run()
+REQUEST_URI=/index.php?r=goods
+2015/10/15 10:17:03 [error] [php] Array to string conversion (E:\www\eileengrays\framework\web\CClientScript.php:660)
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 E:\www\eileengrays\framework\web\CController.php(286): DefaultController->runAction()
+#2 E:\www\eileengrays\framework\web\CController.php(265): DefaultController->runActionWithFilters()
+#3 E:\www\eileengrays\framework\web\CWebApplication.php(282): DefaultController->run()
+#4 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#6 E:\www\eileengrays\apps\local\public\index.php(12): CWebApplication->run()
+REQUEST_URI=/index.php?r=goods

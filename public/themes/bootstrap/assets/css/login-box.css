@@ -1,0 +1,72 @@
+
+#login-box {
+	width:519px;
+	height: 352px;
+	padding: 80px 76px 0 76px;
+	color: #000;
+	font: 12px Arial, Helvetica, sans-serif;
+	background: url(images/nbg.jpg) no-repeat left top;
+}
+
+#login-box img {
+	border:none;
+}
+
+#login-box h2 {
+	padding:0;
+	margin:0;
+	color: #ebebeb;
+	font: bold 44px "Calibri", Arial;
+}
+
+
+#login-box-name {
+	float: left;
+	display:inline;
+	width:80px;
+	text-align: right;
+	padding: 14px 10px 0 0;
+	margin:10px 0 7px 60px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#login-box-field {
+	float: left;
+	display:inline;
+	width:300px;
+	margin:10px 0 7px 0;
+}
+
+
+.form-login  {
+	width: 300px;
+	padding: 10px 4px 6px 3px;
+	border: 1px solid #d5bdb4;
+	background-color:#FFF;
+	font-size: 16px;
+	color: #333;
+}
+
+
+.login-box-options  {
+	clear:both;
+	padding-left:87px;
+	font-size: 11px;
+}
+
+.login-box-options a {
+	color: #000;
+	font-size: 11px;
+}
+.login-buttom{
+    background-color: #ea4f18;
+    border: 0px;
+    height: 42px;
+    width: 200px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    cursor: pointer;
+}

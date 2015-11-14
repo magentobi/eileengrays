@@ -1,0 +1,340 @@
+2015/10/22 14:15:08 [error] [php] include(LoginForm.php): failed to open stream: No such file or directory (E:\www\eileengrays\framework\YiiBase.php:432)
+Stack trace:
+#0 E:\www\eileengrays\apps\local\protected\controllers\AuthController.php(18): spl_autoload_call()
+#1 E:\www\eileengrays\framework\web\actions\CInlineAction.php(49): AuthController->actionLogin()
+#2 E:\www\eileengrays\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 E:\www\eileengrays\framework\web\CController.php(286): AuthController->runAction()
+#4 E:\www\eileengrays\framework\web\CController.php(265): AuthController->runActionWithFilters()
+#5 E:\www\eileengrays\framework\web\CWebApplication.php(282): AuthController->run()
+#6 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#8 E:\www\eileengrays\apps\local\public\index.php(12): CWebApplication->run()
+REQUEST_URI=/index.php?r=auth/login
+2015/10/22 14:15:28 [error] [php] Trying to get property of non-object (E:\www\eileengrays\apps\local\protected\views\auth\login.php:11)
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CController.php(869): AuthController->renderFile()
+#1 E:\www\eileengrays\apps\local\protected\controllers\AuthController.php(35): AuthController->renderPartial()
+#2 E:\www\eileengrays\framework\web\actions\CInlineAction.php(49): AuthController->actionLogin()
+#3 E:\www\eileengrays\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 E:\www\eileengrays\framework\web\CController.php(286): AuthController->runAction()
+#5 E:\www\eileengrays\framework\web\CController.php(265): AuthController->runActionWithFilters()
+#6 E:\www\eileengrays\framework\web\CWebApplication.php(282): AuthController->run()
+#7 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 E:\www\eileengrays\apps\local\public\index.php(12): CWebApplication->run()
+REQUEST_URI=/index.php?r=auth/login
+2015/10/22 14:15:32 [error] [php] Trying to get property of non-object (E:\www\eileengrays\apps\local\protected\views\auth\login.php:11)
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CController.php(869): AuthController->renderFile()
+#1 E:\www\eileengrays\apps\local\protected\controllers\AuthController.php(35): AuthController->renderPartial()
+#2 E:\www\eileengrays\framework\web\actions\CInlineAction.php(49): AuthController->actionLogin()
+#3 E:\www\eileengrays\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 E:\www\eileengrays\framework\web\CController.php(286): AuthController->runAction()
+#5 E:\www\eileengrays\framework\web\CController.php(265): AuthController->runActionWithFilters()
+#6 E:\www\eileengrays\framework\web\CWebApplication.php(282): AuthController->run()
+#7 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 E:\www\eileengrays\apps\local\public\index.php(12): CWebApplication->run()
+REQUEST_URI=/index.php?r=auth/login
+2015/10/22 14:15:32 [error] [php] Trying to get property of non-object (E:\www\eileengrays\apps\local\protected\views\auth\login.php:11)
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CController.php(869): AuthController->renderFile()
+#1 E:\www\eileengrays\apps\local\protected\controllers\AuthController.php(35): AuthController->renderPartial()
+#2 E:\www\eileengrays\framework\web\actions\CInlineAction.php(49): AuthController->actionLogin()
+#3 E:\www\eileengrays\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 E:\www\eileengrays\framework\web\CController.php(286): AuthController->runAction()
+#5 E:\www\eileengrays\framework\web\CController.php(265): AuthController->runActionWithFilters()
+#6 E:\www\eileengrays\framework\web\CWebApplication.php(282): AuthController->run()
+#7 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 E:\www\eileengrays\apps\local\public\index.php(12): CWebApplication->run()
+REQUEST_URI=/index.php?r=auth/login
+2015/10/22 14:16:59 [error] [php] Trying to get property of non-object (E:\www\eileengrays\apps\local\protected\views\auth\login.php:11)
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CController.php(869): AuthController->renderFile()
+#1 E:\www\eileengrays\apps\local\protected\controllers\AuthController.php(35): AuthController->renderPartial()
+#2 E:\www\eileengrays\framework\web\actions\CInlineAction.php(49): AuthController->actionLogin()
+#3 E:\www\eileengrays\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 E:\www\eileengrays\framework\web\CController.php(286): AuthController->runAction()
+#5 E:\www\eileengrays\framework\web\CController.php(265): AuthController->runActionWithFilters()
+#6 E:\www\eileengrays\framework\web\CWebApplication.php(282): AuthController->run()
+#7 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 E:\www\eileengrays\apps\local\public\index.php(12): CWebApplication->run()
+REQUEST_URI=/index.php?r=auth/login
+2015/10/22 14:17:00 [error] [php] Trying to get property of non-object (E:\www\eileengrays\apps\local\protected\views\auth\login.php:11)
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CController.php(869): AuthController->renderFile()
+#1 E:\www\eileengrays\apps\local\protected\controllers\AuthController.php(35): AuthController->renderPartial()
+#2 E:\www\eileengrays\framework\web\actions\CInlineAction.php(49): AuthController->actionLogin()
+#3 E:\www\eileengrays\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 E:\www\eileengrays\framework\web\CController.php(286): AuthController->runAction()
+#5 E:\www\eileengrays\framework\web\CController.php(265): AuthController->runActionWithFilters()
+#6 E:\www\eileengrays\framework\web\CWebApplication.php(282): AuthController->run()
+#7 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 E:\www\eileengrays\apps\local\public\index.php(12): CWebApplication->run()
+REQUEST_URI=/index.php?r=auth/login
+2015/10/22 14:17:00 [error] [php] Trying to get property of non-object (E:\www\eileengrays\apps\local\protected\views\auth\login.php:11)
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CController.php(869): AuthController->renderFile()
+#1 E:\www\eileengrays\apps\local\protected\controllers\AuthController.php(35): AuthController->renderPartial()
+#2 E:\www\eileengrays\framework\web\actions\CInlineAction.php(49): AuthController->actionLogin()
+#3 E:\www\eileengrays\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 E:\www\eileengrays\framework\web\CController.php(286): AuthController->runAction()
+#5 E:\www\eileengrays\framework\web\CController.php(265): AuthController->runActionWithFilters()
+#6 E:\www\eileengrays\framework\web\CWebApplication.php(282): AuthController->run()
+#7 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 E:\www\eileengrays\apps\local\public\index.php(12): CWebApplication->run()
+REQUEST_URI=/index.php?r=auth/login
+2015/10/22 14:18:22 [error] [php] Trying to get property of non-object (E:\www\eileengrays\apps\local\protected\views\auth\login.php:11)
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CController.php(869): AuthController->renderFile()
+#1 E:\www\eileengrays\apps\local\protected\controllers\AuthController.php(35): AuthController->renderPartial()
+#2 E:\www\eileengrays\framework\web\actions\CInlineAction.php(49): AuthController->actionLogin()
+#3 E:\www\eileengrays\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 E:\www\eileengrays\framework\web\CController.php(286): AuthController->runAction()
+#5 E:\www\eileengrays\framework\web\CController.php(265): AuthController->runActionWithFilters()
+#6 E:\www\eileengrays\framework\web\CWebApplication.php(282): AuthController->run()
+#7 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 E:\www\eileengrays\apps\local\public\index.php(12): CWebApplication->run()
+REQUEST_URI=/index.php?r=auth/login
+2015/10/22 14:18:22 [error] [php] Trying to get property of non-object (E:\www\eileengrays\apps\local\protected\views\auth\login.php:11)
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CController.php(869): AuthController->renderFile()
+#1 E:\www\eileengrays\apps\local\protected\controllers\AuthController.php(35): AuthController->renderPartial()
+#2 E:\www\eileengrays\framework\web\actions\CInlineAction.php(49): AuthController->actionLogin()
+#3 E:\www\eileengrays\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 E:\www\eileengrays\framework\web\CController.php(286): AuthController->runAction()
+#5 E:\www\eileengrays\framework\web\CController.php(265): AuthController->runActionWithFilters()
+#6 E:\www\eileengrays\framework\web\CWebApplication.php(282): AuthController->run()
+#7 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 E:\www\eileengrays\apps\local\public\index.php(12): CWebApplication->run()
+REQUEST_URI=/index.php?r=auth/login
+2015/10/22 14:20:35 [error] [php] Trying to get property of non-object (E:\www\eileengrays\apps\local\protected\views\auth\login.php:11)
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CController.php(869): AuthController->renderFile()
+#1 E:\www\eileengrays\apps\local\protected\controllers\AuthController.php(35): AuthController->renderPartial()
+#2 E:\www\eileengrays\framework\web\actions\CInlineAction.php(49): AuthController->actionLogin()
+#3 E:\www\eileengrays\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 E:\www\eileengrays\framework\web\CController.php(286): AuthController->runAction()
+#5 E:\www\eileengrays\framework\web\CController.php(265): AuthController->runActionWithFilters()
+#6 E:\www\eileengrays\framework\web\CWebApplication.php(282): AuthController->run()
+#7 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 E:\www\eileengrays\apps\local\public\index.php(12): CWebApplication->run()
+REQUEST_URI=/index.php?r=auth/login
+2015/10/22 14:20:36 [error] [php] Trying to get property of non-object (E:\www\eileengrays\apps\local\protected\views\auth\login.php:11)
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CController.php(869): AuthController->renderFile()
+#1 E:\www\eileengrays\apps\local\protected\controllers\AuthController.php(35): AuthController->renderPartial()
+#2 E:\www\eileengrays\framework\web\actions\CInlineAction.php(49): AuthController->actionLogin()
+#3 E:\www\eileengrays\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 E:\www\eileengrays\framework\web\CController.php(286): AuthController->runAction()
+#5 E:\www\eileengrays\framework\web\CController.php(265): AuthController->runActionWithFilters()
+#6 E:\www\eileengrays\framework\web\CWebApplication.php(282): AuthController->run()
+#7 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 E:\www\eileengrays\apps\local\public\index.php(12): CWebApplication->run()
+REQUEST_URI=/index.php?r=auth/login
+2015/10/22 14:20:36 [error] [php] Trying to get property of non-object (E:\www\eileengrays\apps\local\protected\views\auth\login.php:11)
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CController.php(869): AuthController->renderFile()
+#1 E:\www\eileengrays\apps\local\protected\controllers\AuthController.php(35): AuthController->renderPartial()
+#2 E:\www\eileengrays\framework\web\actions\CInlineAction.php(49): AuthController->actionLogin()
+#3 E:\www\eileengrays\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 E:\www\eileengrays\framework\web\CController.php(286): AuthController->runAction()
+#5 E:\www\eileengrays\framework\web\CController.php(265): AuthController->runActionWithFilters()
+#6 E:\www\eileengrays\framework\web\CWebApplication.php(282): AuthController->run()
+#7 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 E:\www\eileengrays\apps\local\public\index.php(12): CWebApplication->run()
+REQUEST_URI=/index.php?r=auth/login
+2015/10/22 14:20:36 [error] [php] Trying to get property of non-object (E:\www\eileengrays\apps\local\protected\views\auth\login.php:11)
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CController.php(869): AuthController->renderFile()
+#1 E:\www\eileengrays\apps\local\protected\controllers\AuthController.php(35): AuthController->renderPartial()
+#2 E:\www\eileengrays\framework\web\actions\CInlineAction.php(49): AuthController->actionLogin()
+#3 E:\www\eileengrays\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 E:\www\eileengrays\framework\web\CController.php(286): AuthController->runAction()
+#5 E:\www\eileengrays\framework\web\CController.php(265): AuthController->runActionWithFilters()
+#6 E:\www\eileengrays\framework\web\CWebApplication.php(282): AuthController->run()
+#7 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 E:\www\eileengrays\apps\local\public\index.php(12): CWebApplication->run()
+REQUEST_URI=/index.php?r=auth/login
+2015/10/22 14:20:36 [error] [php] Trying to get property of non-object (E:\www\eileengrays\apps\local\protected\views\auth\login.php:11)
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CController.php(869): AuthController->renderFile()
+#1 E:\www\eileengrays\apps\local\protected\controllers\AuthController.php(35): AuthController->renderPartial()
+#2 E:\www\eileengrays\framework\web\actions\CInlineAction.php(49): AuthController->actionLogin()
+#3 E:\www\eileengrays\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 E:\www\eileengrays\framework\web\CController.php(286): AuthController->runAction()
+#5 E:\www\eileengrays\framework\web\CController.php(265): AuthController->runActionWithFilters()
+#6 E:\www\eileengrays\framework\web\CWebApplication.php(282): AuthController->run()
+#7 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 E:\www\eileengrays\apps\local\public\index.php(12): CWebApplication->run()
+REQUEST_URI=/index.php?r=auth/login
+2015/10/22 14:20:37 [error] [php] Trying to get property of non-object (E:\www\eileengrays\apps\local\protected\views\auth\login.php:11)
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CController.php(869): AuthController->renderFile()
+#1 E:\www\eileengrays\apps\local\protected\controllers\AuthController.php(35): AuthController->renderPartial()
+#2 E:\www\eileengrays\framework\web\actions\CInlineAction.php(49): AuthController->actionLogin()
+#3 E:\www\eileengrays\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 E:\www\eileengrays\framework\web\CController.php(286): AuthController->runAction()
+#5 E:\www\eileengrays\framework\web\CController.php(265): AuthController->runActionWithFilters()
+#6 E:\www\eileengrays\framework\web\CWebApplication.php(282): AuthController->run()
+#7 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#9 E:\www\eileengrays\apps\local\public\index.php(12): CWebApplication->run()
+REQUEST_URI=/index.php?r=auth/login
+2015/10/22 14:30:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user/login".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('user/login')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\local\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=user/login
+---
+2015/10/22 14:31:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user/login".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('user/login')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\local\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=user/login
+---
+2015/10/22 14:31:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user/login".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('user/login')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\local\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=user/login
+---
+2015/10/22 14:35:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/bootstrap/css/login-box.css".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/bootstra...')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\local\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/bootstrap/css/login-box.css
+HTTP_REFERER=http://localhost/auth/login
+---
+2015/10/22 14:35:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/bootstrap/images/logo.jpg".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/bootstra...')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\local\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/bootstrap/images/logo.jpg
+HTTP_REFERER=http://localhost/auth/login
+---
+2015/10/22 14:35:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/bootstrap/images/logo.jpg".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/bootstra...')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\local\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/bootstrap/images/logo.jpg
+HTTP_REFERER=http://localhost/auth/login
+---
+2015/10/22 14:35:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/bootstrap/css/login-box.css".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/bootstra...')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\local\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/bootstrap/css/login-box.css
+HTTP_REFERER=http://localhost/auth/login
+---
+2015/10/22 14:36:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/bootstrap/images/logo.jpg".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/bootstra...')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\local\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/bootstrap/images/logo.jpg
+HTTP_REFERER=http://localhost/auth/login
+---
+2015/10/22 14:36:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/bootstrap/css/login-box.css".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/bootstra...')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\local\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/bootstrap/css/login-box.css
+HTTP_REFERER=http://localhost/auth/login
+---
+2015/10/22 14:36:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user/login".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('user/login')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\local\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/user/login
+---
+2015/10/22 14:36:33 [error] [exception.CException] exception 'CException' with message 'UserController cannot find the requested view "login".' in E:\www\eileengrays\framework\web\CController.php:878
+Stack trace:
+#0 E:\www\eileengrays\apps\local\protected\controllers\UserController.php(39): CController->renderPartial('login', Array)
+#1 E:\www\eileengrays\framework\web\actions\CInlineAction.php(49): UserController->actionLogin()
+#2 E:\www\eileengrays\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 E:\www\eileengrays\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 E:\www\eileengrays\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 E:\www\eileengrays\framework\web\CWebApplication.php(282): CController->run('login')
+#6 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('user/login')
+#7 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#8 E:\www\eileengrays\apps\local\public\index.php(12): CApplication->run()
+#9 {main}
+REQUEST_URI=/user/login
+---
+2015/10/22 14:36:33 [error] [exception.CException] exception 'CException' with message 'UserController cannot find the requested view "login".' in E:\www\eileengrays\framework\web\CController.php:878
+Stack trace:
+#0 E:\www\eileengrays\apps\local\protected\controllers\UserController.php(39): CController->renderPartial('login', Array)
+#1 E:\www\eileengrays\framework\web\actions\CInlineAction.php(49): UserController->actionLogin()
+#2 E:\www\eileengrays\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 E:\www\eileengrays\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 E:\www\eileengrays\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 E:\www\eileengrays\framework\web\CWebApplication.php(282): CController->run('login')
+#6 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('user/login')
+#7 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#8 E:\www\eileengrays\apps\local\public\index.php(12): CApplication->run()
+#9 {main}
+REQUEST_URI=/user/login
+---
+2015/10/22 14:36:34 [error] [exception.CException] exception 'CException' with message 'UserController cannot find the requested view "login".' in E:\www\eileengrays\framework\web\CController.php:878
+Stack trace:
+#0 E:\www\eileengrays\apps\local\protected\controllers\UserController.php(39): CController->renderPartial('login', Array)
+#1 E:\www\eileengrays\framework\web\actions\CInlineAction.php(49): UserController->actionLogin()
+#2 E:\www\eileengrays\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 E:\www\eileengrays\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 E:\www\eileengrays\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 E:\www\eileengrays\framework\web\CWebApplication.php(282): CController->run('login')
+#6 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('user/login')
+#7 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#8 E:\www\eileengrays\apps\local\public\index.php(12): CApplication->run()
+#9 {main}
+REQUEST_URI=/user/login
+---
+2015/10/22 14:36:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/bootstrap/css/login-box.css".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/bootstra...')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\local\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/bootstrap/css/login-box.css
+HTTP_REFERER=http://localhost/user/login
+---
+2015/10/22 14:36:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/bootstrap/images/logo.jpg".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/bootstra...')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\local\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/bootstrap/images/logo.jpg
+HTTP_REFERER=http://localhost/user/login
+---

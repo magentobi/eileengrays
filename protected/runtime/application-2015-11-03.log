@@ -1,0 +1,35 @@
+2015/11/03 15:21:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "aliexpressLb/creatAuth.php".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('aliexpressLb/cr...')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\local\public\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/aliexpressLb/creatAuth.php?code=08ac3971-0145-4897-bd81-ed262cf9ea2e
+HTTP_REFERER=http://authhz.alibaba.com/auth/authorize.htm?client_id=5420714&site=aliexpress&redirect_uri=http://localhost/aliexpressLb/creatAuth.php&_aop_signature=71E2046EC00855BB623F463E6DD6DA280B2B36E5
+---
+2015/11/03 15:21:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\local\public\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://localhost/aliexpressLb/creatAuth.php?code=08ac3971-0145-4897-bd81-ed262cf9ea2e
+---
+2015/11/03 15:47:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\local\public\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2015/11/03 18:27:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "new/misc/js/login2015.js".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('new/misc/js/log...')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\local\public\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/new/misc/js/login2015.js
+HTTP_REFERER=http://localhost/index.php
+---
