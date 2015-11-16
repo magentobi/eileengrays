@@ -1,0 +1,266 @@
+2015/11/16 09:43:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "new/misc/js/login2015.js".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('new/misc/js/log...')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/new/misc/js/login2015.js
+HTTP_REFERER=http://localhost/
+---
+2015/11/16 09:43:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://localhost/dist/
+---
+2015/11/16 13:11:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('cgi-bin')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin
+---
+2015/11/16 13:13:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/index.html".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('cgi-bin/index.h...')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/index.html
+---
+2015/11/16 13:13:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/index.html".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('cgi-bin/index.h...')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/index.html
+---
+2015/11/16 13:13:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/index.html".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('cgi-bin/index.h...')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/index.html
+---
+2015/11/16 13:13:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/index.html".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('cgi-bin/index.h...')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/index.html
+---
+2015/11/16 13:15:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/index.html".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('cgi-bin/index.h...')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/index.html
+---
+2015/11/16 13:15:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/index.html".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('cgi-bin/index.h...')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/index.html
+---
+2015/11/16 13:15:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/index.html".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('cgi-bin/index.h...')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/index.html
+---
+2015/11/16 13:15:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/index.html".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('cgi-bin/index.h...')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/index.html
+---
+2015/11/16 13:15:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/index.html".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('cgi-bin/index.h...')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/index.html
+---
+2015/11/16 13:15:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/index.html".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('cgi-bin/index.h...')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/index.html
+---
+2015/11/16 13:15:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/index.html".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('cgi-bin/index.h...')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/index.html
+---
+2015/11/16 13:15:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/index.html".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('cgi-bin/index.h...')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/index.html
+---
+2015/11/16 13:15:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/index.html".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('cgi-bin/index.h...')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/index.html
+---
+2015/11/16 13:15:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/index.html".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('cgi-bin/index.h...')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/index.html
+---
+2015/11/16 13:15:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/index.html".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('cgi-bin/index.h...')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/index.html
+---
+2015/11/16 13:15:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/index.html".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('cgi-bin/index.h...')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/index.html
+---
+2015/11/16 13:15:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/index.html".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('cgi-bin/index.h...')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/index.html
+---
+2015/11/16 13:17:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/index.html".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('cgi-bin/index.h...')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/index.html
+---
+2015/11/16 13:17:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/index.html".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('cgi-bin/index.h...')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/index.html
+---
+2015/11/16 13:17:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/index.html".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('cgi-bin/index.h...')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/index.html
+---
+2015/11/16 13:17:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/index.html".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('cgi-bin/index.h...')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/index.html
+---
+2015/11/16 13:17:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/index.html".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('cgi-bin/index.h...')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/index.html
+---
+2015/11/16 13:17:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/index.html".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('cgi-bin/index.h...')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/index.html
+---
+2015/11/16 13:17:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/index.html".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('cgi-bin/index.h...')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/index.html
+---
+2015/11/16 13:17:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/index.html".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('cgi-bin/index.h...')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/index.html
+---
+2015/11/16 13:17:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/index.html".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('cgi-bin/index.h...')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/index.html
+---
+2015/11/16 13:17:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/index.html".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('cgi-bin/index.h...')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/index.html
+---
+2015/11/16 13:17:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/index.html".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('cgi-bin/index.h...')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/index.html
+---
+2015/11/16 13:17:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/index.html".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('cgi-bin/index.h...')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/index.html
+---
+2015/11/16 13:17:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cgi-bin/index.html".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('cgi-bin/index.h...')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/cgi-bin/index.html
+---
