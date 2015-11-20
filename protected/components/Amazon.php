@@ -11,29 +11,29 @@
  */
 class Amazon extends ApiServiceComponent
 {
-    const orderStatus = array(
-
-    );
-    const TFMShipmentStatus = array(
-        'PendingPickUp'=>'亚马逊尚未从卖家处取件',
-        'LabelCanceled'=>'卖家取消了取件',
-        'PickedUp'=>'亚马逊已从卖家处取件',
-        'AtDestinationFC'=>'包裹已经抵达亚马逊运营中心',
-        'Delivered'=>'包裹已经配送给买家',
-        'RejectedByBuyer'=>'包裹被买家拒收',
-        'Undeliverable'=>'包裹无法配送',
-        'ReturnedToSeller'=>'包裹未配送给买家，已经退还给卖家',
-        'Lost'=>'包裹被承运人丢失'
-    );
-    const fulfillmentChannel = array(
-        'AFN',
-        'MFN'
-    );
-    const paymentMethod = array(
-        'COD',
-        'CVS',
-        'Other'
-    );
+//    const orderStatus = array(
+//
+//    );
+//    const TFMShipmentStatus = array(
+//        'PendingPickUp'=>'亚马逊尚未从卖家处取件',
+//        'LabelCanceled'=>'卖家取消了取件',
+//        'PickedUp'=>'亚马逊已从卖家处取件',
+//        'AtDestinationFC'=>'包裹已经抵达亚马逊运营中心',
+//        'Delivered'=>'包裹已经配送给买家',
+//        'RejectedByBuyer'=>'包裹被买家拒收',
+//        'Undeliverable'=>'包裹无法配送',
+//        'ReturnedToSeller'=>'包裹未配送给买家，已经退还给卖家',
+//        'Lost'=>'包裹被承运人丢失'
+//    );
+//    const fulfillmentChannel = array(
+//        'AFN',
+//        'MFN'
+//    );
+//    const paymentMethod = array(
+//        'COD',
+//        'CVS',
+//        'Other'
+//    );
 
     const TIME_TYPE_CREATED = 'Created';
     const TIME_TYPE_UPDATED = 'Updated';
@@ -56,7 +56,7 @@ class Amazon extends ApiServiceComponent
                                $timeAfter,
                                $timeBefore,
                                $orderStatus = array(),
-                               $timeType = self::TIME_TYPE_UPDATED,
+                               $timeType = Amazon::TIME_TYPE_UPDATED,
                                $fulfillmentChannel='',
                                $buyerEmail = '',
                                $sellerOrderId = '',
@@ -90,11 +90,11 @@ class Amazon extends ApiServiceComponent
             if(!$request->isSetSellerOrderId($sellerOrderId)){
                 //时间格式    DATE_ISO8601
                 switch($timeType){
-                    case self::TIME_TYPE_UPDATED:
+                    case Amazon::TIME_TYPE_UPDATED:
                         $request->setLastUpdatedAfter($timeAfter);
                         $request->setLastUpdatedBefore($timeBefore);
                         break;
-                    case self::TIME_TYPE_CREATED:
+                    case Amazon::TIME_TYPE_CREATED:
                         $request->setCreatedAfter($timeAfter);
                         $request->setCreatedBefore($timeBefore);
                         break;
@@ -102,17 +102,17 @@ class Amazon extends ApiServiceComponent
                         break;
                 }
             }
-            $orderStatusList = self::orderStatus;
+            $orderStatusList = Amazon::orderStatus;
             foreach($orderStatus as $status)
                 if(isset($orderStatusList[$status]))
                     $request->setOrderStatus($status);
 
-            $fulfillmentChannelList = self::fulfillmentChannel;
+            $fulfillmentChannelList = Amazon::fulfillmentChannel;
             if(isset($fulfillmentChannelList[$fulfillmentChannel])){
                 $request->setFulfillmentChannel($fulfillmentChannel);
             }
 
-            $paymentMethodList = self::paymentMethod;
+            $paymentMethodList = Amazon::paymentMethod;
             if(isset($paymentMethodList[$paymentMethod]))
                 $request->setPaymentMethod($paymentMethod);
 
@@ -123,7 +123,7 @@ class Amazon extends ApiServiceComponent
 
             $request->setMaxResultsPerPage(100);
 
-            $TFMShipmentStatusList = self::TFMShipmentStatus;
+            $TFMShipmentStatusList = Amazon::TFMShipmentStatus;
             if(isset($TFMShipmentStatusList[$TFMShipmentStatus]))
                 $request->setTFMShipmentStatus($TFMShipmentStatus);
 
@@ -278,13 +278,14 @@ EOD;
      * @return MarketplaceWebService_Client|MarketplaceWebServiceOrders_Client
      */
     protected function getService($config,$serviceName = 'MarketplaceWebServiceOrders',$options = array()){
-
-        require_once($serviceName.'/Client.php');
+        $clientClass = $serviceName.'/Client';
+        $clientClassFile = $serviceName.'_Client';
+        require_once($clientClassFile.'.php');
         $serviceConfig = $this->getServiceConfig($config,$serviceName,$options);
         switch($serviceName)
         {
             case 'MarketplaceWebServiceOrders':
-                $service = new MarketplaceWebServiceOrders_Client(
+                $service = new $clientClass(
                     $config['AWS_ACCESS_KEY_ID'],
                     $config['AWS_SECRET_ACCESS_KEY'],
                     $config['APPLICATION_NAME'],
@@ -292,7 +293,7 @@ EOD;
                     $serviceConfig);
                 break;
             case 'MarketplaceWebService':
-                $service = new MarketplaceWebService_Client(
+                $service = new $clientClass(
                     $config['AWS_ACCESS_KEY_ID'],
                     $config['AWS_SECRET_ACCESS_KEY'],
                     $serviceConfig,

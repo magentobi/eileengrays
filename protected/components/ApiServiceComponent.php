@@ -13,9 +13,9 @@ abstract class ApiServiceComponent extends CApplicationComponent
 {
     protected function beforeGetOrders(){
         if($this->hasEventHandler('onBeforeGetOrders')){
-            $event = new ImportOrderServiceEvent();
+            $event = new OrderBehavior();
             $this->onAfterGetOrders($event);
-            return $event->sender;
+            return $event;
         }
         return false;
     }
