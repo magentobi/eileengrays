@@ -16,5 +16,5 @@ return array(
     ),
     'aliExpress'=>array(
         'defaultController' => 'index',
-    ),
+    ),'core','system'
 );

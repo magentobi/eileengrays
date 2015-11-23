@@ -21,13 +21,10 @@ class ApplicationBehavior extends CBehavior
     }
     public function beginRequest($event)
     {
-        echo "onBeginRequest()";
         $event->sender->setLanguage(isset($_GET['lang'])?$_GET['lang']:'en_us');
     }
 
     public function endRequest($event)
     {
-
-        echo "onEndRequest()";
     }
 }

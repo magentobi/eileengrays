@@ -36,10 +36,10 @@ return array(
             // enable cookie-based authentication
             'allowAutoLogin' => true,
         ),
-        'errorHandler' => array(
-            // use 'site/error' action to display errors
-            'errorAction' => 'error/index',
-        ),
+//        'errorHandler' => array(
+//            // use 'site/error' action to display errors
+//            'errorAction' => 'error/index',
+//        ),
         'urlManager' => array(
             'urlFormat' => 'path',
             'showScriptName' => false,

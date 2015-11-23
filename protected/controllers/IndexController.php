@@ -2,23 +2,35 @@
 
 class IndexController extends Controller
 {
-    public function actionIndex(){
-//        $this->layout = 'main';
-//        /**
-//         * @var $app CWebApplication
-//         */
-//        $app = Yii::app();
-//        $app->getClientScript()->registerCoreScript('jquery',CClientScript::POS_READY);
-//        echo Yii::app()->language;
-//        echo Yii::t('app','x');
-//        $this->render('index');
+	public function actionIndex()
+	{
+		$this->render('index');
+	}
 
-        $url = 'https://passport.jd.com/uc/login';
-        $ch = curl_init($url);
-        curl_setopt($ch,CURLOPT_SSL_VERIFYHOST,0);
-        curl_setopt($ch,CURLOPT_SSL_VERIFYPEER,0);
-        curl_setopt($ch,CURLOPT_RETURNTRANSFER,1);
-        $data = curl_exec($ch);
-        var_dump($data);
-    }
+	// Uncomment the following methods and override them if needed
+	/*
+	public function filters()
+	{
+		// return the filter configuration for this controller, e.g.:
+		return array(
+			'inlineFilterName',
+			array(
+				'class'=>'path.to.FilterClass',
+				'propertyName'=>'propertyValue',
+			),
+		);
+	}
+
+	public function actions()
+	{
+		// return external action classes, e.g.:
+		return array(
+			'action1'=>'path.to.ActionClass',
+			'action2'=>array(
+				'class'=>'path.to.AnotherActionClass',
+				'propertyName'=>'propertyValue',
+			),
+		);
+	}
+	*/
 }

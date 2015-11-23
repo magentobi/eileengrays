@@ -1,9 +1,8 @@
 <?php
-/* @var $this UserController */
+/* @var $this PlatformController */
 
 $this->breadcrumbs=array(
-	'User'=>array('/user'),
-	'Login',
+	'Platform',
 );
 ?>
 <h1><?php echo $this->id . '/' . $this->action->id; ?></h1>

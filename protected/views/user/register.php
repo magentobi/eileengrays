@@ -3,7 +3,7 @@
 
 $this->breadcrumbs=array(
 	'User'=>array('/user'),
-	'Login',
+	'Register',
 );
 ?>
 <h1><?php echo $this->id . '/' . $this->action->id; ?></h1>
