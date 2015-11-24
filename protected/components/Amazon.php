@@ -11,34 +11,34 @@
  */
 class Amazon extends ApiServiceComponent
 {
-//    const orderStatus = array(
-//
-//    );
-//    const TFMShipmentStatus = array(
-//        'PendingPickUp'=>'亚马逊尚未从卖家处取件',
-//        'LabelCanceled'=>'卖家取消了取件',
-//        'PickedUp'=>'亚马逊已从卖家处取件',
-//        'AtDestinationFC'=>'包裹已经抵达亚马逊运营中心',
-//        'Delivered'=>'包裹已经配送给买家',
-//        'RejectedByBuyer'=>'包裹被买家拒收',
-//        'Undeliverable'=>'包裹无法配送',
-//        'ReturnedToSeller'=>'包裹未配送给买家，已经退还给卖家',
-//        'Lost'=>'包裹被承运人丢失'
-//    );
-//    const fulfillmentChannel = array(
-//        'AFN',
-//        'MFN'
-//    );
-//    const paymentMethod = array(
-//        'COD',
-//        'CVS',
-//        'Other'
-//    );
-
     const TIME_TYPE_CREATED = 'Created';
     const TIME_TYPE_UPDATED = 'Updated';
 
     /**
+     * 获取亚马逊服务列表
+     * @return array
+     */
+    public function getServiceList(){
+        return array();
+    }
+
+    /**
+     * 获取亚马逊服务状态
+     * @param $config
+     * @param $serviceName  @see $this->getServiceList();
+     * @return mixed
+     */
+    public function getServiceStatus($config,$serviceName){
+        $service = $this->getService($config,$serviceName);
+        $method = 'GetServiceStatus';
+        $response = $this->invoke($service,$serviceName,$method,function($request)use($config){
+            $request->setSellerId($config['MERCHANT_ID']);
+        });
+        return $response;
+    }
+
+    /**
+     * 获取订单列表
      * @param        $config
      * @param        $timeAfter
      * @param        $timeBefore
@@ -66,8 +66,8 @@ class Amazon extends ApiServiceComponent
     {
         $serviceName = 'MarketplaceWebServiceOrders';
         $service = $this->getService($config);
-
-        $response = $this->invoke($service,$serviceName,'ListOrders',function($request)use(
+        $method = 'ListOrders';
+        $response = $this->invoke($service,$serviceName,$method,function($request)use(
             $config,
             $timeType,
             $timeAfter,
@@ -131,13 +131,184 @@ class Amazon extends ApiServiceComponent
 
         return $response;
     }
-
-    public function getServiceStatus($config,$serviceName){
-        $serviceName = '';
+    /**
+     * 根据订单分页token获取下一页数据
+     * @param $config
+     * @param $nextToken
+     * @return mixed
+     */
+    public function listOrdersByNextToken($config,$nextToken)
+    {
+        $serviceName = 'MarketplaceWebServiceOrders';
+        $method = 'ListOrdersByNextToken';
         $service = $this->getService($config,$serviceName);
-
+        $response = $this->invoke($service,$serviceName,$method,function($request)use($config,$nextToken){
+            /**
+             * @var $request MarketplaceWebServiceOrders_Model_ListOrdersByNextTokenRequest
+             */
+            $request->setSellerId($config['MERCHANT_ID']);
+            $request->setNextToken($nextToken);
+        });
+        return $response;
     }
 
+
+    /**
+     * 获取订单中产品列表数据
+     * @param $config
+     * @param $orderId
+     * @return null
+     */
+    public function listOrderItems($config, $orderId)
+    {
+        $service = $this->getService($config);
+        $serviceName = 'MarketplaceWebServiceOrders';
+        $method = 'ListOrderItems';
+        $response = $this->invoke($service,$serviceName,$method,function($request)use($config,$orderId){
+            /**
+             * @var $request MarketplaceWebServiceOrders_Model_ListOrderItemsRequest
+             */
+            $request->setSellerId($config['MERCHANT_ID']);
+            $request->setAmazonOrderId($orderId);
+        });
+
+        return $response;
+    }
+
+    /**
+     * 根据订单编号获取订单数据
+     * @param $config
+     * @param $orderId
+     * @return mixed
+     */
+    public function getOrder($config,$orderId)
+    {
+        $service = $this->getService($config);
+        $serviceName = 'MarketplaceWebServiceOrders';
+        $method = 'GetOrder';
+        $response = $this->invoke($service,$serviceName,$method,function($request)use($config,$orderId){
+            $request->setSellerId($config['MERCHANT_ID']);
+            $request->setAmazonOrderId($orderId);
+        });
+        return $response;
+    }
+
+    /**
+     * 取消一个或多个上传数据提交，并返回已取消的上传数据提交计数。
+     * @param $config
+     * @param $feedSubmissionIdList
+     * @param $feedTypeList
+     * @param $submittedFromDate
+     * @param $submittedToDate
+     * @return mixed
+     */
+    public function cancelFeedSubmissions($config,
+                                          $feedSubmissionIdList,
+                                          $feedTypeList,
+                                          $submittedFromDate,
+                                          $submittedToDate){
+        $serviceName = 'MarketplaceWebService';
+        $method = 'CancelFeedSubmissions';
+        $service = $this->getService($config,$serviceName);
+        $response = $this->invoke($service,$serviceName,$method,function($request)use($config,$feedSubmissionIdList,$feedTypeList,$submittedFromDate,$submittedToDate){
+            $request->setSellerId($config['MERCHANT_ID']);
+            $request->setFeedSubmissionIdList($feedSubmissionIdList);
+            $request->setFeedTypeList($feedTypeList);
+            $request->setSubmittedFromDate($submittedFromDate);
+            $request->setSubmittedToDate($submittedToDate);
+        });
+        return $response;
+    }
+
+    /**
+     * 取消一个或多个报告请求。
+     * @param $config
+     * @param $reportRequestIdList
+     * @param $reportTypeList
+     * @param $reportProcessingStatusList
+     * @param $requestedFromDate
+     * @param $requestedToDate
+     * @return mixed
+     */
+    public function cancelReportRequests($config,
+                                         $reportRequestIdList,
+                                         $reportTypeList,
+                                         $reportProcessingStatusList,
+                                         $requestedFromDate,
+                                         $requestedToDate){
+        $serviceName = 'MarketplaceWebService';
+        $method = 'CancelReportRequests';
+        $service = $this->getService($config,$serviceName);
+        $response = $this->invoke($service,$serviceName,$method,function($request)use(
+            $config,
+            $reportRequestIdList,
+            $reportTypeList,
+            $reportProcessingStatusList,
+            $requestedFromDate,
+            $requestedToDate){
+
+            $request->setSellerId($config['MERCHANT_ID']);
+            $request->setReportRequestIdList($reportRequestIdList);
+            $request->setReportTypeList($reportTypeList);
+            $request->setReportProcessingStatusList($reportProcessingStatusList);
+            $request->setRequestedFromDate($requestedFromDate);
+            $request->setSubmittedToDate($requestedToDate);
+        });
+        return $response;
+    }
+
+    /**
+     * 返回过去 90 天内提交的上传数据计数。
+     * @param $config
+     * @param $feedTypeList
+     * @param $feedProcessingStatusList
+     * @param $submittedFromDate
+     * @param $submittedToDate
+     * @return mixed
+     */
+    public function getFeedSubmissionCount($config,
+                                           $feedTypeList,
+                                           $feedProcessingStatusList,
+                                           $submittedFromDate,
+                                           $submittedToDate){
+        $serviceName = 'MarketplaceWebService';
+        $method = 'GetFeedSubmissionCount';
+        $service = $this->getService($config,$serviceName);
+        $response = $this->invoke($service,$serviceName,$method,function($request)use(
+            $config,
+            $feedTypeList,
+            $feedProcessingStatusList,
+            $submittedFromDate,
+            $submittedToDate){
+
+            $request->setSellerId($config['MERCHANT_ID']);
+            $request->setFeedProcessingStatusList($feedProcessingStatusList);
+            $request->setFeedTypeList($feedTypeList);
+            $request->setSubmittedFromDate($submittedFromDate);
+            $request->setSubmittedToDate($submittedToDate);
+        });
+        return $response;
+    }
+
+    /**
+     * 返回使用 NextToken 参数的上传数据提交列表。
+     * @param $config
+     * @param $nextToken
+     * @return mixed
+     */
+    public function getFeedSubmissionListByNextToken($config,$nextToken){
+        $serviceName = 'MarketplaceWebService';
+        $method = 'GetFeedSubmissionListByNextToken';
+        $service = $this->getService($config,$serviceName);
+        $response = $this->invoke($service,$serviceName,$method,function($request)use($config,$nextToken){
+            $request->setSellerId($config['MERCHANT_ID']);
+            $request->setNextToken($nextToken);
+        });
+        return $response;
+    }
+    public function getFeedSubmissionList($config){
+
+    }
     public function getFeedSubmissionResult($config,$feedSubmissionId){
         $serviceName = 'MarketplaceWebService';
         $service = $this->getService($config,$serviceName);
@@ -145,11 +316,22 @@ class Amazon extends ApiServiceComponent
             $request->setMerchant($config['MERCHANT_ID']);
             $request->setFeedSubmissionId($feedSubmissionId);
             $request->setFeedSubmissionResult(@fopen('php://memory', 'rw+'));
-//            $request->setMWSAuthToken('<MWS Auth Token>'); // Optional
         });
         return $response;
 
     }
+    public function getReportCount(){}
+    public function getReportListByNextToken(){}
+    public function getReportList(){}
+    public function getReportRequestCount(){}
+    public function getReportRequestListByNextToken(){}
+    public function getReportRequestList(){}
+    public function getReport(){}
+    public function getReportScheduleCount(){}
+    public function getReportScheduleListByNextToken(){}
+    public function getReportScheduleList(){}
+    public function manageReportSchedule(){}
+    public function requestReport(){}
     public function submitFeed($config,$orders,$orderItemIdList)
     {
         $service = $this->getService($config,"MarketplaceWebService");
@@ -211,73 +393,67 @@ EOD;
 
         return $response;
     }
+    public function updateReportAcknowledgements(){}
 
-    /**
-     * @param $config
-     * @param $nextToken
-     * @return mixed
-     */
-    public function listOrdersByNextToken($config,$nextToken)
-    {
-        $service = $this->getService($config);
-        $serviceName = 'MarketplaceWebServiceOrders';
-        $method = 'ListOrdersByNextToken';
-        $response = $this->invoke($service,$serviceName,$method,function($request)use($config,$nextToken){
-            /**
-             * @var $request MarketplaceWebServiceOrders_Model_ListOrdersByNextTokenRequest
-             */
-            $request->setSellerId($config['MERCHANT_ID']);
-            $request->setNextToken($nextToken);
+
+    public function confirmTransportRequest($config){
+        $serviceName = '';
+        $methodName = '';
+        $service = $this->getService($config,$serviceName);
+        $response = $this->invoke($service,$serviceName,$methodName,function($request)use($config){
+            $request->setSellerId($config);
         });
         return $response;
     }
+    public function createInboundShipmentPlan(){}
+    public function createInboundShipment(){}
+    public function estimateTransportRequest(){}
+    public function getBillOfLading(){}
+    public function getPackageLabels(){}
+    public function getPalletLabels(){}
+    public function getPrepInstructionsForASIN(){}
+    public function getPrepInstructionsForSkU(){}
+    public function getTransportContent(){}
+    public function getUniquePackageLabels(){}
+    public function listInboundShipmentItemsByNextToken(){}
+    public function listInboundShipmentItems(){}
+    public function listInboundShipmentsByNextToken(){}
+    public function listInboundShipments(){}
+    public function putTransportContent(){}
+    public function updateInboundShipment(){}
+    public function voidTransport(){}
 
+    public function cancelFulfillmentOrder(){}
+    public function createFulfillmentOrder(){}
+    public function getFulfillmentOrder(){}
+    public function getFulfillmentPreview(){}
+    public function getPackageTrackingDetails(){}
+    public function listAllFulfillmentOrdersByNextToken(){}
+    public function listAllFulfillmentOrders(){}
+    public function updateFulfillmentOrder(){}
 
-    /**
-     * @param $config
-     * @param $orderId
-     * @return null
-     */
-    public function listOrderItems($config, $orderId)
-    {
-        $service = $this->getService($config);
-        $serviceName = 'MarketplaceWebServiceOrders';
-        $method = 'ListOrderItems';
-        $response = $this->invoke($service,$serviceName,$method,function($request)use($config,$orderId){
-            /**
-             * @var $request MarketplaceWebServiceOrders_Model_ListOrderItemsRequest
-             */
-            $request->setSellerId($config['MERCHANT_ID']);
-            $request->setAmazonOrderId($orderId);
-        });
+    public function listMarketplaceParticipationsByNextToken(){}
+    public function listMarketplaceParticipations(){}
 
-        return $response;
-    }
+    public function listFinancialEventGroupsByNextToken(){}
+    public function listFinancialEventGroups(){}
+    public function listFinancialEventsByNextToken(){}
+    public function listFinancialEvents(){}
 
-    /**
-     * @param $config
-     * @param $orderId
-     * @return mixed
-     */
-    public function getOrder($config,$orderId)
-    {
-        $service = $this->getService($config);
-        $serviceName = 'MarketplaceWebServiceOrders';
-        $method = 'GetOrder';
-        $response = $this->invoke($service,$serviceName,$method,function($request)use($config,$orderId){
-            $request->setSellerId($config['MERCHANT_ID']);
-            $request->setAmazonOrderId($orderId);
-        });
-        return $response;
-    }
+    public function getLastUpdatedTimeForRecommendations(){}
+    public function listRecommendationsByNextToken(){}
+    public function listRecommendations(){}
+
 
     /**
      * @param        $config
      * @param string $serviceName
      * @param array  $options
-     * @return MarketplaceWebService_Client|MarketplaceWebServiceOrders_Client
+     * @return null
      */
-    protected function getService($config,$serviceName = 'MarketplaceWebServiceOrders',$options = array()){
+    protected function getService($config,
+                                  $serviceName = 'MarketplaceWebServiceOrders',
+                                  $options = array()){
         $clientClass = $serviceName.'/Client';
         $clientClassFile = $serviceName.'_Client';
         require_once($clientClassFile.'.php');
@@ -285,6 +461,7 @@ EOD;
         switch($serviceName)
         {
             case 'MarketplaceWebServiceOrders':
+            case 'FulfillmentInboundShipment':
                 $service = new $clientClass(
                     $config['AWS_ACCESS_KEY_ID'],
                     $config['AWS_SECRET_ACCESS_KEY'],
@@ -350,24 +527,61 @@ EOD;
     protected function invoke($service,$serviceName,$methodName,$callback)
     {
         try {
-            $requestName = $methodName.'Request';
+
+            if('ConfirmTransport' == $methodName){
+                $requestName = $methodName.'InputRequest';
+            }else{
+                $requestName = $methodName.'Request';
+            }
+
             $requestClassFile = implode('/',array($serviceName,'Model',$requestName));
             $requestClass = implode('_',array($serviceName,'Model',$requestName));
 
             require_once($requestClassFile.'.php');
+
             $request = new $requestClass();
 
             call_user_func($callback,$request);
+
             if (method_exists($service, $methodName))
                 $response = $service->$methodName($request);
             else
                 return new Exception($methodName.' is not found.',500);
+
             return $response;
 
         } catch (Exception $ex) {
             return new Exception($ex->getMessage(),$ex->getCode(),$ex);
         }
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     protected function importOrders($config,$lastUpdateAfter,$lastUpdateBefore,$orderStatus)
     {

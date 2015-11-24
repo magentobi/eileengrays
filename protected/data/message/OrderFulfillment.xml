@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AmazonEnvelope xsi:noNamespaceSchemaLocation="amzn-envelope.xsd"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Header>
+        <DocumentVersion>1.01</DocumentVersion>
+        <MerchantIdentifier>%s</MerchantIdentifier>
+    </Header>
+    <MessageType>OrderFulfillment</MessageType>
+    <Message>
+        <MessageID>1</MessageID>
+        <OperationType>Update</OperationType>
+        <OrderFulfillment>
+            <AmazonOrderID>%s</AmazonOrderID>
+            <FulfillmentDate>%s</FulfillmentDate>
+            <ShipperTrackingNumber>%s</ShipperTrackingNumber>
+            <FulfillmentData>
+                <CarrierName>%s</CarrierName>
+                <ShippingMethod>%s</ShippingMethod>
+            </FulfillmentData>
+            %s
+        </OrderFulfillment>
+    </Message>
+</AmazonEnvelope>
