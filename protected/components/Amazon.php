@@ -1120,26 +1120,154 @@ class Amazon extends ApiServiceComponent
         return $response;
     }
 
-    public function cancelFulfillmentOrder(){}
-    public function createFulfillmentOrder(){}
-    public function getFulfillmentOrder(){}
-    public function getFulfillmentPreview(){}
-    public function getPackageTrackingDetails(){}
-    public function listAllFulfillmentOrdersByNextToken(){}
+    public function cancelFulfillmentOrder($config){
+
+    }
+    public function createFulfillmentOrder($config){}
+    public function getFulfillmentOrder($config){}
+    public function getFulfillmentPreview($config){}
+    public function getPackageTrackingDetails($config){}
+
+    /**
+     *
+     * @param $config
+     * @param $nextToken
+     * @return FBAOutboundServiceMWS_Model_ListAllFulfillmentOrdersByNextTokenResponse
+     */
+    public function listAllFulfillmentOrdersByNextToken($config,$nextToken){
+        $serviceName = 'FBAOutboundServiceMWS';
+        $service = $this->getService($config,$serviceName);
+        $method = 'ListAllFulfillmentOrdersByNextToken';
+        $response = $this->invoke($service, $serviceName, $method, function ($request) use ($config, $nextToken) {
+            /**
+             * @var  FBAOutboundServiceMWS_Model_ListAllFulfillmentOrdersByNextTokenRequest $request
+             */
+            $request->setSellerId($config['MERCHANT_ID']);
+            $request->setNextToken($nextToken);
+        });
+        return $response;
+    }
     public function listAllFulfillmentOrders(){}
     public function updateFulfillmentOrder(){}
 
-    public function listMarketplaceParticipationsByNextToken(){}
+    public function listMarketplaceParticipationsByNextToken($config,$nextToken){
+        $serviceName = 'FBAInventoryServiceMWS';
+        $service = $this->getService($config,$serviceName);
+        $method = 'ListInventorySupplyByNextToken';
+        $response = $this->invoke($service, $serviceName, $method, function ($request) use ($config, $nextToken) {
+            /**
+             * @var  FBAInventoryServiceMWS_Model_ListInventorySupplyByNextTokenRequest $request
+             */
+            $request->setSellerId($config['MERCHANT_ID']);
+            $request->setNextToken($nextToken);
+        });
+        return $response;
+    }
     public function listMarketplaceParticipations(){}
 
-    public function listFinancialEventGroupsByNextToken(){}
+    public function listFinancialEventGroupsByNextToken($config,$nextToken){
+        $serviceName = 'FBAInventoryServiceMWS';
+        $service = $this->getService($config,$serviceName);
+        $method = 'ListFinancialEventGroupsByNextToken';
+        $response = $this->invoke($service, $serviceName, $method, function ($request) use ($config, $nextToken) {
+            /**
+             * @var  FBAInventoryServiceMWS_Model_ListFinancialEventGroupsByNextTokenRequest $request
+             */
+            $request->setSellerId($config['MERCHANT_ID']);
+            $request->setNextToken($nextToken);
+        });
+        return $response;
+    }
     public function listFinancialEventGroups(){}
-    public function listFinancialEventsByNextToken(){}
+
+    /**
+     * @param $config
+     * @param $nextToken
+     * @return FBAInventoryServiceMWS_Model_ListFinancialEventGroupsByNextTokenResponse
+     */
+    public function listFinancialEventsByNextToken($config,$nextToken){
+        $serviceName = 'FBAInventoryServiceMWS';
+        $service = $this->getService($config,$serviceName);
+        $method = 'ListFinancialEventGroupsByNextToken';
+        $response = $this->invoke($service, $serviceName, $method, function ($request) use ($config, $nextToken) {
+            /**
+             * @var  FBAInventoryServiceMWS_Model_ListFinancialEventGroupsByNextTokenRequest $request
+             */
+            $request->setSellerId($config['MERCHANT_ID']);
+            $request->setNextToken($nextToken);
+        });
+        return $response;
+    }
     public function listFinancialEvents(){}
 
     public function getLastUpdatedTimeForRecommendations(){}
-    public function listRecommendationsByNextToken(){}
+
+    /**
+     * @param $config
+     * @param $nextToken
+     * @return mixed
+     */
+    public function listRecommendationsByNextToken($config,$nextToken){
+        $serviceName = 'FBAInventoryServiceMWS';
+        $service = $this->getService($config,$serviceName);
+        $method = 'ListInventorySupplyByNextToken';
+        $response = $this->invoke($service, $serviceName, $method, function ($request) use ($config, $nextToken) {
+            /**
+             * @var  FBAInventoryServiceMWS_Model_ListRecommendationsByNextTokenRequest $request
+             */
+            $request->setSellerId($config['MERCHANT_ID']);
+            $request->setNextToken($nextToken);
+        });
+        return $response;
+    }
     public function listRecommendations(){}
+
+    /**
+     * @param $config
+     * @param string $time
+     * @return mixed
+     */
+    public function listInventorySupply($config, $time = '', $skuList)
+    {
+
+        $serviceName = 'FBAInventoryServiceMWS';
+        $service = $this->getService($config, $serviceName);
+        $method = 'listInventorySupply';
+        $response = $this->invoke($service, $serviceName, $method, function ($request) use ($config, $time, $skuList) {
+            $request->setSellerId($config['MERCHANT_ID']);
+            if ($skuList) {
+                require("FBAInventoryServiceMWS/Model/SellerSkuList.php");
+                $sellerSkuList = new FBAInventoryServiceMWS_Model_SellerSkuList();
+                $sellerSkuList->setmember($skuList);
+                $request->setSellerSkus($sellerSkuList);
+            } else {
+                $request->setQueryStartDateTime($time);
+            }
+        });
+
+        return $response;
+    }
+
+
+    /**
+     * @param $config
+     * @param $nextToken
+     * @return mixed
+     */
+    public function ListInventorySupplyByNextToken($config, $nextToken)
+    {
+        $serviceName = 'FBAInventoryServiceMWS';
+        $service = $this->getService($config,$serviceName);
+        $method = 'ListInventorySupplyByNextToken';
+        $response = $this->invoke($service, $serviceName, $method, function ($request) use ($config, $nextToken) {
+            /**
+             * @var  FBAInventoryServiceMWS_Model_ListInventorySupplyByNextTokenRequest $request
+             */
+            $request->setSellerId($config['MERCHANT_ID']);
+            $request->setNextToken($nextToken);
+        });
+        return $response;
+    }
 
 
     /**
@@ -1167,6 +1295,7 @@ class Amazon extends ApiServiceComponent
                     $serviceConfig);
                 break;
             case 'MarketplaceWebService':
+            case 'FulfillmentOutboundShipment':
                 $service = new $clientClass(
                     $config['AWS_ACCESS_KEY_ID'],
                     $config['AWS_SECRET_ACCESS_KEY'],
@@ -1204,6 +1333,10 @@ class Amazon extends ApiServiceComponent
         if(is_numeric(strpos($serviceName,$servicePrefix)))
         {
             $serviceName = substr($serviceName,strlen($servicePrefix),strlen($serviceName)-strlen($servicePrefix));
+        } else if ($serviceName == 'FBAInventoryServiceMWS') {
+            $serviceName = 'FulfillmentInventory';
+        } else if($serviceName == 'FBAOutboundServiceMWS'){
+            $serviceName = 'FBAOutboundServiceMWS';
         }
 
         if(empty($serviceName)){

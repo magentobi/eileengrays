@@ -1,0 +1,18 @@
+2015/12/23 22:59:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://localhost/
+---
+2015/12/23 23:18:02 [error] [php] Undefined offset: 50 (E:\www\eileengrays\apps\eileengrays\protected\controllers\IndexController.php:23)
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CController.php(286): IndexController->runAction()
+#1 E:\www\eileengrays\framework\web\CController.php(265): IndexController->runActionWithFilters()
+#2 E:\www\eileengrays\framework\web\CWebApplication.php(282): IndexController->run()
+#3 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#5 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CWebApplication->run()
+REQUEST_URI=/

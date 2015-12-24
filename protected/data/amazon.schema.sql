@@ -2,39 +2,39 @@ CREATE DATABASE amazon;
 USE  amazon;
 
 CREATE TABLE IF NOT EXISTS amazon_order(
-  AmazonOrderId VARCHAR(100) NOT NULL COMMENT 'ÑÇÂíÑ·Ëù¶¨ÒåµÄ¶©µ¥±àÂë£¬¸ñÊ½Îª 3-7-7',
-  SellerOrderId VARCHAR(10) COMMENT 'Âô¼ÒËù¶¨ÒåµÄ¶©µ¥±àÂë',
-  PurchaseDate DATETIME NOT NULL COMMENT '´´½¨¶©µ¥µÄÈÕÆÚ',
-  LastUpdateDate DATETIME NOT NULL COMMENT '¶©µ¥µÄ×îºó¸üÐÂÈÕÆÚ',
-  OrderStatus VARCHAR(100) NOT NULL COMMENT 'µ±Ç°µÄ¶©µ¥×´Ì¬',
-  FulfillmentChannel ENUM('AFN','MFM','') COMMENT '¶©µ¥ÅäËÍ·½Ê½£ºÑÇÂíÑ·ÅäËÍ (AFN) »òÂô¼Ò×ÔÐÐÅäËÍ (MFN)',
-  SalesChannel VARCHAR(100) COMMENT '¶©µ¥ÖÐµÚÒ»¼þÉÌÆ·µÄÏúÊÛÇþµÀ',
-  OrderChannel VARCHAR(100) COMMENT '¶©µ¥ÖÐµÚÒ»¼þÉÌÆ·µÄ¶©µ¥ÇþµÀ',
-  ShipServiceLevel VARCHAR(100) COMMENT '»õ¼þ·þÎñË®Æ½',
-  ShippingAddress INT UNSIGNED COMMENT '¶©µ¥µÄÅäËÍµØÖ·',
-  OrderTotal int UNSIGNED COMMENT '¶©µ¥µÄ×Ü·ÑÓÃ',
-  NumberOfItemsShipped VARCHAR(10) COMMENT 'ÒÑÅäËÍµÄÉÌÆ·ÊýÁ¿',
-  NumberOfItemsUnshipped VARCHAR(10) COMMENT 'Î´ÅäËÍµÄÉÌÆ·ÊýÁ¿',
-  PaymentExecutionDetail INT UNSIGNED COMMENT '°üº¬Ò»¸ö»ò¶à¸öPaymentExecutionDetailItemÏìÓ¦ÔªËØ',
-  PaymentMethod ENUM('COD','CVS','Other') COMMENT '¶©µ¥µÄÖ÷Òª¸¶¿î·½Ê½:COD - »õµ½¸¶¿î¡£½öÊÊÓÃÓÚÖÐ¹ú (CN) ºÍÈÕ±¾ (JP),±ãÀûµê¡£½öÊÊÓÃÓÚÈÕ±¾ (JP),Other - COD ºÍ CVS Ö®ÍâµÄ¸¶¿î·½Ê½',
-  MarketplaceId VARCHAR(10) NOT NULL COMMENT '¶©µ¥Éú³ÉËùÔÚÉÌ³ÇµÄÄäÃû±àÂë',
-  BuyerEmail VARCHAR(10) COMMENT 'Âò¼ÒµÄÄäÃûµç×ÓÓÊ¼þµØÖ·',
-  BuyerName VARCHAR(11) COMMENT 'Âò¼ÒÐÕÃû',
-  ShipmentServiceLevelCategory ENUM('Expedited','FreeEconomy','NextDay','SameDay','SecondDay','Scheduled','Standard') COMMENT '¶©µ¥µÄÅäËÍ·þÎñ¼¶±ð·ÖÀà',
-  ShippedByAmazonTFM BOOLEAN COMMENT 'Ö¸Ã÷¶©µ¥ÅäËÍ·½ÊÇ·ñÊÇÑÇÂíÑ·ÅäËÍ (Amazon TFM) ·þÎñ,ÑÇÂíÑ· TFM ½öÊÊÓÃÓÚÖÐ¹ú (CN)',
-  TFMShipmentStatus ENUM('PendingPickUp','LabelCanceled','PickedUp','AtDestinationFC','Delivered','RejectedByBuyer','Undeliverable','ReturnedToSeller') COMMENT 'ÑÇÂíÑ· TFM¶©µ¥µÄ×´Ì¬¡£½öµ±ShippedByAmazonTFM = TrueÊ±·µ»Ø¡£Çë×¢Òâ£º¼´Ê¹µ± ShippedByAmazonTFM = True Ê±£¬Èç¹ûÄú»¹Ã»ÓÐ´´½¨»õ¼þ£¬Ò²²»»á·µ»Ø TFMShipmentStatus,ÑÇÂíÑ· TFM ½öÊÊÓÃÓÚÖÐ¹ú (CN)',
-  CbaDisplayableShippingLabel VARCHAR(100) COMMENT 'Âô¼Ò×Ô¶¨ÒåµÄÅäËÍ·½Ê½£¬ÊôÓÚCheckout by Amazon (CBA) ËùÖ§³ÖµÄËÄÖÖ±ê×¼ÅäËÍÉèÖÃÖÐµÄÒ»ÖÖ,CBA ½öÊÊÓÃÓÚÃÀ¹ú (US)¡¢Ó¢¹ú (UK) ºÍµÂ¹ú (DE) µÄÂô¼Ò',
-  OrderType ENUM('StandardOrder','Preorder') NOT NULL COMMENT '¶©µ¥ÀàÐÍ :StandardOrder - °üº¬µ±Ç°ÓÐ¿â´æÉÌÆ·µÄ¶©µ¥,Preorder -Ëùº¬Ô¤ÊÛÉÌÆ·£¨·¢²¼ÈÕÆÚÍíÓÚµ±Ç°ÈÕÆÚ£©µÄ¶©µ¥,Preorder ½öÔÚÈÕ±¾ (JP) ÊÇ¿ÉÐÐµÄOrderType Öµ',
-  EarliestShipDate DATETIME COMMENT 'Äú³ÐÅµµÄ¶©µ¥·¢»õÊ±¼ä·¶Î§µÄµÚÒ»Ìì¡£ÈÕÆÚ¸ñÊ½Îª ISO 8601,½ö¶ÔÂô¼ÒÅäËÍÍøÂç (MFN) ¶©µ¥·µ»Ø,¿ÉÄÜ²»»á¶Ô 2013 Äê 2 ÔÂ 1 ÈÕÖ®Ç°µÄ¶©µ¥·µ»Ø EarliestShipDate',
-  LatestShipDate DATETIME COMMENT 'Äú³ÐÅµµÄ¶©µ¥·¢»õÊ±¼ä·¶Î§µÄ×îºóÒ»Ìì¡£ÈÕÆÚ¸ñÊ½Îª ISO 8601,¶ÔÂô¼ÒÅäËÍÍøÂç (MFN)	ºÍÑÇÂíÑ·ÎïÁ÷ (AFN) ¶©µ¥·µ»Ø,¿ÉÄÜ²»»á¶Ô 2013 Äê 2 ÔÂ 1 ÈÕÖ®Ç°µÄ¶©µ¥·µ»Ø LatestShipDate',
-  EarliestDeliveryDate DATETIME COMMENT 'Äú³ÐÅµµÄ¶©µ¥ËÍ´ïÊ±¼ä·¶Î§µÄµÚÒ»Ìì¡£ÈÕÆÚ¸ñÊ½Îª ISO 8601,½ö¶ÔÃ»ÓÐ PendingAvailability¡¢Pending »ò Canceled×´Ì¬µÄ MFN ¶©µ¥·µ»Ø',
-  LatestDeliveryDate DATETIME COMMENT 'Äú³ÐÅµµÄ¶©µ¥ËÍ´ïÊ±¼ä·¶Î§µÄ×îºóÒ»Ìì¡£ÈÕÆÚ¸ñÊ½Îª ISO 8601,½ö¶ÔÃ»ÓÐ PendingAvailability¡¢Pending »ò Canceled×´Ì¬µÄ MFN ¶©µ¥·µ»Ø'
+  AmazonOrderId VARCHAR(100) NOT NULL COMMENT 'äºšé©¬é€Šæ‰€å®šä¹‰çš„è®¢å•ç¼–ç ï¼Œæ ¼å¼ä¸º 3-7-7',
+  SellerOrderId VARCHAR(10) COMMENT 'å–å®¶æ‰€å®šä¹‰çš„è®¢å•ç¼–ç ',
+  PurchaseDate DATETIME NOT NULL COMMENT 'åˆ›å»ºè®¢å•çš„æ—¥æœŸ',
+  LastUpdateDate DATETIME NOT NULL COMMENT 'è®¢å•çš„æœ€åŽæ›´æ–°æ—¥æœŸ',
+  OrderStatus VARCHAR(100) NOT NULL COMMENT 'å½“å‰çš„è®¢å•çŠ¶æ€',
+  FulfillmentChannel ENUM('AFN','MFM','') COMMENT 'è®¢å•é…é€æ–¹å¼ï¼šäºšé©¬é€Šé…é€ (AFN) æˆ–å–å®¶è‡ªè¡Œé…é€ (MFN)',
+  SalesChannel VARCHAR(100) COMMENT 'è®¢å•ä¸­ç¬¬ä¸€ä»¶å•†å“çš„é”€å”®æ¸ é“',
+  OrderChannel VARCHAR(100) COMMENT 'è®¢å•ä¸­ç¬¬ä¸€ä»¶å•†å“çš„è®¢å•æ¸ é“',
+  ShipServiceLevel VARCHAR(100) COMMENT 'è´§ä»¶æœåŠ¡æ°´å¹³',
+  ShippingAddress INT UNSIGNED COMMENT 'è®¢å•çš„é…é€åœ°å€',
+  OrderTotal int UNSIGNED COMMENT 'è®¢å•çš„æ€»è´¹ç”¨',
+  NumberOfItemsShipped VARCHAR(10) COMMENT 'å·²é…é€çš„å•†å“æ•°é‡',
+  NumberOfItemsUnshipped VARCHAR(10) COMMENT 'æœªé…é€çš„å•†å“æ•°é‡',
+  PaymentExecutionDetail INT UNSIGNED COMMENT 'åŒ…å«ä¸€ä¸ªæˆ–å¤šä¸ªPaymentExecutionDetailItemå“åº”å…ƒç´ ',
+  PaymentMethod ENUM('COD','CVS','Other') COMMENT 'è®¢å•çš„ä¸»è¦ä»˜æ¬¾æ–¹å¼:COD - è´§åˆ°ä»˜æ¬¾ã€‚ä»…é€‚ç”¨äºŽä¸­å›½ (CN) å’Œæ—¥æœ¬ (JP),ä¾¿åˆ©åº—ã€‚ä»…é€‚ç”¨äºŽæ—¥æœ¬ (JP),Other - COD å’Œ CVS ä¹‹å¤–çš„ä»˜æ¬¾æ–¹å¼',
+  MarketplaceId VARCHAR(10) NOT NULL COMMENT 'è®¢å•ç”Ÿæˆæ‰€åœ¨å•†åŸŽçš„åŒ¿åç¼–ç ',
+  BuyerEmail VARCHAR(10) COMMENT 'ä¹°å®¶çš„åŒ¿åç”µå­é‚®ä»¶åœ°å€',
+  BuyerName VARCHAR(11) COMMENT 'ä¹°å®¶å§“å',
+  ShipmentServiceLevelCategory ENUM('Expedited','FreeEconomy','NextDay','SameDay','SecondDay','Scheduled','Standard') COMMENT 'è®¢å•çš„é…é€æœåŠ¡çº§åˆ«åˆ†ç±»',
+  ShippedByAmazonTFM BOOLEAN COMMENT 'æŒ‡æ˜Žè®¢å•é…é€æ–¹æ˜¯å¦æ˜¯äºšé©¬é€Šé…é€ (Amazon TFM) æœåŠ¡,äºšé©¬é€Š TFM ä»…é€‚ç”¨äºŽä¸­å›½ (CN)',
+  TFMShipmentStatus ENUM('PendingPickUp','LabelCanceled','PickedUp','AtDestinationFC','Delivered','RejectedByBuyer','Undeliverable','ReturnedToSeller') COMMENT 'äºšé©¬é€Š TFMè®¢å•çš„çŠ¶æ€ã€‚ä»…å½“ShippedByAmazonTFM = Trueæ—¶è¿”å›žã€‚è¯·æ³¨æ„ï¼šå³ä½¿å½“ ShippedByAmazonTFM = True æ—¶ï¼Œå¦‚æžœæ‚¨è¿˜æ²¡æœ‰åˆ›å»ºè´§ä»¶ï¼Œä¹Ÿä¸ä¼šè¿”å›ž TFMShipmentStatus,äºšé©¬é€Š TFM ä»…é€‚ç”¨äºŽä¸­å›½ (CN)',
+  CbaDisplayableShippingLabel VARCHAR(100) COMMENT 'å–å®¶è‡ªå®šä¹‰çš„é…é€æ–¹å¼ï¼Œå±žäºŽCheckout by Amazon (CBA) æ‰€æ”¯æŒçš„å››ç§æ ‡å‡†é…é€è®¾ç½®ä¸­çš„ä¸€ç§,CBA ä»…é€‚ç”¨äºŽç¾Žå›½ (US)ã€è‹±å›½ (UK) å’Œå¾·å›½ (DE) çš„å–å®¶',
+  OrderType ENUM('StandardOrder','PreOrder') NOT NULL COMMENT 'è®¢å•ç±»åž‹ :StandardOrder - åŒ…å«å½“å‰æœ‰åº“å­˜å•†å“çš„è®¢å•,PreOrder -æ‰€å«é¢„å”®å•†å“ï¼ˆå‘å¸ƒæ—¥æœŸæ™šäºŽå½“å‰æ—¥æœŸï¼‰çš„è®¢å•,Preorder ä»…åœ¨æ—¥æœ¬ (JP) æ˜¯å¯è¡Œçš„OrderType å€¼',
+  EarliestShipDate DATETIME COMMENT 'æ‚¨æ‰¿è¯ºçš„è®¢å•å‘è´§æ—¶é—´èŒƒå›´çš„ç¬¬ä¸€å¤©ã€‚æ—¥æœŸæ ¼å¼ä¸º ISO 8601,ä»…å¯¹å–å®¶é…é€ç½‘ç»œ (MFN) è®¢å•è¿”å›ž,å¯èƒ½ä¸ä¼šå¯¹ 2013 å¹´ 2 æœˆ 1 æ—¥ä¹‹å‰çš„è®¢å•è¿”å›ž EarliestShipDate',
+  LatestShipDate DATETIME COMMENT 'æ‚¨æ‰¿è¯ºçš„è®¢å•å‘è´§æ—¶é—´èŒƒå›´çš„æœ€åŽä¸€å¤©ã€‚æ—¥æœŸæ ¼å¼ä¸º ISO 8601,å¯¹å–å®¶é…é€ç½‘ç»œ (MFN)	å’Œäºšé©¬é€Šç‰©æµ (AFN) è®¢å•è¿”å›ž,å¯èƒ½ä¸ä¼šå¯¹ 2013 å¹´ 2 æœˆ 1 æ—¥ä¹‹å‰çš„è®¢å•è¿”å›ž LatestShipDate',
+  EarliestDeliveryDate DATETIME COMMENT 'æ‚¨æ‰¿è¯ºçš„è®¢å•é€è¾¾æ—¶é—´èŒƒå›´çš„ç¬¬ä¸€å¤©ã€‚æ—¥æœŸæ ¼å¼ä¸º ISO 8601,ä»…å¯¹æ²¡æœ‰ PendingAvailabilityã€Pending æˆ– CanceledçŠ¶æ€çš„ MFN è®¢å•è¿”å›ž',
+  LatestDeliveryDate DATETIME COMMENT 'æ‚¨æ‰¿è¯ºçš„è®¢å•é€è¾¾æ—¶é—´èŒƒå›´çš„æœ€åŽä¸€å¤©ã€‚æ—¥æœŸæ ¼å¼ä¸º ISO 8601,ä»…å¯¹æ²¡æœ‰ PendingAvailabilityã€Pending æˆ– CanceledçŠ¶æ€çš„ MFN è®¢å•è¿”å›ž'
 );
 
 CREATE TABLE IF NOT EXISTS Money(
   ID INT UNSIGNED NOT NULL PRIMARY KEY AUTO_INCREMENT COMMENT '',
-  CurrencyCode CHAR(3) NOT NULL COMMENT 'ÈýÎ»ÊýµÄ»õ±Ò´úÂë ¸ñÊ½Îª ISO 4217',
-  Amount VARCHAR(100) NOT NULL COMMENT '»õ±Ò½ð¶î'
+  CurrencyCode CHAR(3) NOT NULL COMMENT 'ä¸‰ä½æ•°çš„è´§å¸ä»£ç  æ ¼å¼ä¸º ISO 4217',
+  Amount VARCHAR(100) NOT NULL COMMENT 'è´§å¸é‡‘é¢'
 );
 
 CREATE TABLE IF NOT EXISTS Address(

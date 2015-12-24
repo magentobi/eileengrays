@@ -1,0 +1,17 @@
+2015/12/18 08:51:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "storehouse/view/id/3".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('storehouse/view...')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/storehouse/view/id/3
+---
+2015/12/18 14:47:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://localhost/index.php
+---

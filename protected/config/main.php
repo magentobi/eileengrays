@@ -17,7 +17,7 @@ return array(
         )
     ),
 
-    'theme' => 'bootstrap',
+    'theme' => 'metis',
 
     'modules' => require(dirname(__FILE__) . '/modules.php'),
     // autoloading model and component classes

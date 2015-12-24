@@ -17,4 +17,9 @@ class CModelHelper
         $key = array_keys($errors);
         return $errors[current($key)];
     }
+
+    public static function indexField($fieldName,$index)
+    {
+        return sprintf("[%d]%s",$index,$fieldName);
+    }
 }
