@@ -1,0 +1,810 @@
+2015/12/25 18:37:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://localhost/
+---
+2015/12/25 18:41:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gp/iterationshowwidget/ajaxGetBooksContentHtml.html/475-0215611-6610276".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('gp/iterationsho...')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/gp/iterationshowwidget/ajaxGetBooksContentHtml.html/475-0215611-6610276
+HTTP_REFERER=http://localhost/site/amazon
+---
+2015/12/25 18:41:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gp/gateway-center-stage/ajax/get-slides-auto.html/475-0215611-6610276".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('gp/gateway-cent...')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/gp/gateway-center-stage/ajax/get-slides-auto.html/475-0215611-6610276
+HTTP_REFERER=http://localhost/site/amazon
+---
+2015/12/25 18:41:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gp/iterationshowwidget/ajaxGetBSContentHtml.html/475-0215611-6610276".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('gp/iterationsho...')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/gp/iterationshowwidget/ajaxGetBSContentHtml.html/475-0215611-6610276
+HTTP_REFERER=http://localhost/site/amazon
+---
+2015/12/25 18:41:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gp/cn-right-trail-banner/ajaxGetRightTrailBannerContentHtml.html/475-0215611-6610276".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('gp/cn-right-tra...')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/gp/cn-right-trail-banner/ajaxGetRightTrailBannerContentHtml.html/475-0215611-6610276
+HTTP_REFERER=http://localhost/site/amazon
+---
+2015/12/25 18:41:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gp/iterationshowwidget/ajaxGetISContentHtml.html/475-0215611-6610276".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('gp/iterationsho...')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/gp/iterationshowwidget/ajaxGetISContentHtml.html/475-0215611-6610276
+HTTP_REFERER=http://localhost/site/amazon
+---
+2015/12/25 18:41:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gp/iterationshowwidget/ajaxGetZDContentHtml.html/475-0215611-6610276".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('gp/iterationsho...')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/gp/iterationshowwidget/ajaxGetZDContentHtml.html/475-0215611-6610276
+HTTP_REFERER=http://localhost/site/amazon
+---
+2015/12/25 18:41:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gp/iterationshowwidget/ajaxGetZDPMultiContentHtml.html/475-0215611-6610276".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('gp/iterationsho...')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/gp/iterationshowwidget/ajaxGetZDPMultiContentHtml.html/475-0215611-6610276
+HTTP_REFERER=http://localhost/site/amazon
+---
+2015/12/25 18:41:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "xa/dealcontent/v2/GetDealMetadata".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('xa/dealcontent/...')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/xa/dealcontent/v2/GetDealMetadata?nocache=1451040091834
+HTTP_REFERER=http://localhost/site/amazon
+---
+2015/12/25 18:41:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gp/navigation/ajax/dynamic-menu.html/475-0215611-6610276".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('gp/navigation/a...')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/gp/navigation/ajax/dynamic-menu.html/475-0215611-6610276?mobileItems=mobile&rid=1HP6A1VY7X4GKBDTRPXV&isPrime=0&weblabs=57171%3AT1&primeMenuWidth=310&_=1451040092237
+HTTP_REFERER=http://localhost/site/amazon
+---
+2015/12/25 18:41:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gp/homepage.html/uedata/unsticky/475-0215611-6610276/Gateway/ntpoffrw".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('gp/homepage.htm...')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/gp/homepage.html/uedata/unsticky/475-0215611-6610276/Gateway/ntpoffrw?ld&v=0.189.0&id=1HP6A1VY7X4GKBDTRPXV&m=1&sc=1HP6A1VY7X4GKBDTRPXV&ue=5&ns=132&ne=136&af=260&cf=260&be=987&pc=1161&tc=-1080&na_=-1080&ul_=-9&_ul=-9&rd_=-1451040091103&_rd=-1451040091103&fe_=-1076&lk_=-1076&_lk=-1076&co_=-1076&_co=-1076&sc_=-1451040091103&rq_=-1063&rs_=-12&_rs=689&dl_=-3&di_=995&de_=995&_de=1010&_dc=1161&ld_=1161&_ld=-1451040091103&ntd=0&ty=0&rc=0&hob=2&hoe=6&ld=1162&t=1451040092265&ctb=1&csmtags=aui|aui:aui_build_date:3.15.11.2-2015-12-07|gwCFImgNoCache|fls-cn|iss-on-time&viz=visible:5&pty=Gateway&spty=desktop&pti=desktop&tid=1HP6A1VY7X4GKBDTRPXV&aftb=1&ui=2
+HTTP_REFERER=http://localhost/site/amazon
+---
+2015/12/25 18:41:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gp/navigation/ajax/dynamic-menu.html/475-0215611-6610276".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('gp/navigation/a...')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/gp/navigation/ajax/dynamic-menu.html/475-0215611-6610276?mobileItems=mobile&rid=1HP6A1VY7X4GKBDTRPXV&isPrime=0&weblabs=57171%3AT1&primeMenuWidth=310&_=1451040092348
+HTTP_REFERER=http://localhost/site/amazon
+---
+2015/12/25 18:41:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gp/navigation/ajax/dynamic-menu.html/475-0215611-6610276".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('gp/navigation/a...')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/gp/navigation/ajax/dynamic-menu.html/475-0215611-6610276?mobileItems=mobile&rid=1HP6A1VY7X4GKBDTRPXV&isPrime=0&weblabs=57171%3AT1&primeMenuWidth=310&_=1451040092405
+HTTP_REFERER=http://localhost/site/amazon
+---
+2015/12/25 18:41:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gp/navigation/ajax/dynamic-menu.html/475-0215611-6610276".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('gp/navigation/a...')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/gp/navigation/ajax/dynamic-menu.html/475-0215611-6610276?mobileItems=mobile&rid=1HP6A1VY7X4GKBDTRPXV&isPrime=0&weblabs=57171%3AT1&primeMenuWidth=310&_=1451040092477
+HTTP_REFERER=http://localhost/site/amazon
+---
+2015/12/25 18:41:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gp/deal/ajax/impressionTracker.html".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('gp/deal/ajax/im...')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/gp/deal/ajax/impressionTracker.html?sessionID=475-0215611-6610276&impressions={}
+HTTP_REFERER=http://localhost/site/amazon
+---
+2015/12/25 18:42:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gp/gateway-center-stage/ajax/get-slides-auto.html/475-0215611-6610276".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('gp/gateway-cent...')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/gp/gateway-center-stage/ajax/get-slides-auto.html/475-0215611-6610276
+HTTP_REFERER=http://localhost/site/amazon
+---
+2015/12/25 18:42:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gp/cn-right-trail-banner/ajaxGetRightTrailBannerContentHtml.html/475-0215611-6610276".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('gp/cn-right-tra...')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/gp/cn-right-trail-banner/ajaxGetRightTrailBannerContentHtml.html/475-0215611-6610276
+HTTP_REFERER=http://localhost/site/amazon
+---
+2015/12/25 18:42:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gp/iterationshowwidget/ajaxGetBSContentHtml.html/475-0215611-6610276".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('gp/iterationsho...')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/gp/iterationshowwidget/ajaxGetBSContentHtml.html/475-0215611-6610276
+HTTP_REFERER=http://localhost/site/amazon
+---
+2015/12/25 18:42:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gp/iterationshowwidget/ajaxGetBooksContentHtml.html/475-0215611-6610276".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('gp/iterationsho...')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/gp/iterationshowwidget/ajaxGetBooksContentHtml.html/475-0215611-6610276
+HTTP_REFERER=http://localhost/site/amazon
+---
+2015/12/25 18:42:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gp/iterationshowwidget/ajaxGetISContentHtml.html/475-0215611-6610276".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('gp/iterationsho...')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/gp/iterationshowwidget/ajaxGetISContentHtml.html/475-0215611-6610276
+HTTP_REFERER=http://localhost/site/amazon
+---
+2015/12/25 18:42:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gp/iterationshowwidget/ajaxGetZDPMultiContentHtml.html/475-0215611-6610276".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('gp/iterationsho...')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/gp/iterationshowwidget/ajaxGetZDPMultiContentHtml.html/475-0215611-6610276
+HTTP_REFERER=http://localhost/site/amazon
+---
+2015/12/25 18:42:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gp/iterationshowwidget/ajaxGetZDContentHtml.html/475-0215611-6610276".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('gp/iterationsho...')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/gp/iterationshowwidget/ajaxGetZDContentHtml.html/475-0215611-6610276
+HTTP_REFERER=http://localhost/site/amazon
+---
+2015/12/25 18:42:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "xa/dealcontent/v2/GetDealMetadata".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('xa/dealcontent/...')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/xa/dealcontent/v2/GetDealMetadata?nocache=1451040142170
+HTTP_REFERER=http://localhost/site/amazon
+---
+2015/12/25 18:42:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gp/homepage.html/uedata/unsticky/475-0215611-6610276/Gateway/ntpoffrw".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('gp/homepage.htm...')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/gp/homepage.html/uedata/unsticky/475-0215611-6610276/Gateway/ntpoffrw?ld&v=0.189.0&id=1HP6A1VY7X4GKBDTRPXV&bf=dall_1-dcm_1-xhr_1-qs_1-ael_1-atob_1-&m=1&sc=1HP6A1VY7X4GKBDTRPXV&ue=5&ns=58&ne=66&af=66&cf=66&be=375&pc=397&tc=-73&na_=-73&ul_=-1451040141833&_ul=-1451040141833&rd_=-1451040141833&_rd=-1451040141833&fe_=-73&lk_=-73&_lk=-73&co_=-73&_co=-73&sc_=-1451040141833&rq_=-55&rs_=-53&_rs=-8&dl_=-47&di_=378&de_=378&_de=396&_dc=397&ld_=397&_ld=-1451040141833&ntd=-1&ty=2&rc=0&hob=2&hoe=5&ld=398&t=1451040142231&ctb=1&bfform=1&bfnt=1&nrbf=0&bft=1&csmtags=aui|aui:aui_build_date:3.15.11.2-2015-12-07|gwCFImgNoCache|fls-cn&viz=visible:5&pty=Gateway&spty=desktop&pti=desktop&tid=1HP6A1VY7X4GKBDTRPXV&aftb=1
+HTTP_REFERER=http://localhost/site/amazon
+---
+2015/12/25 18:42:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gp/navigation/ajax/dynamic-menu.html/475-0215611-6610276".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('gp/navigation/a...')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/gp/navigation/ajax/dynamic-menu.html/475-0215611-6610276?mobileItems=mobile&rid=1HP6A1VY7X4GKBDTRPXV&isPrime=0&weblabs=57171%3AT1&primeMenuWidth=310&_=1451040142355
+HTTP_REFERER=http://localhost/site/amazon
+---
+2015/12/25 18:42:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gp/navigation/ajax/dynamic-menu.html/475-0215611-6610276".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('gp/navigation/a...')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/gp/navigation/ajax/dynamic-menu.html/475-0215611-6610276?mobileItems=mobile&rid=1HP6A1VY7X4GKBDTRPXV&isPrime=0&weblabs=57171%3AT1&primeMenuWidth=310&_=1451040142408
+HTTP_REFERER=http://localhost/site/amazon
+---
+2015/12/25 18:42:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gp/navigation/ajax/dynamic-menu.html/475-0215611-6610276".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('gp/navigation/a...')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/gp/navigation/ajax/dynamic-menu.html/475-0215611-6610276?mobileItems=mobile&rid=1HP6A1VY7X4GKBDTRPXV&isPrime=0&weblabs=57171%3AT1&primeMenuWidth=310&_=1451040142480
+HTTP_REFERER=http://localhost/site/amazon
+---
+2015/12/25 18:42:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gp/navigation/ajax/dynamic-menu.html/475-0215611-6610276".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('gp/navigation/a...')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/gp/navigation/ajax/dynamic-menu.html/475-0215611-6610276?mobileItems=mobile&rid=1HP6A1VY7X4GKBDTRPXV&isPrime=0&weblabs=57171%3AT1&primeMenuWidth=310&_=1451040142515
+HTTP_REFERER=http://localhost/site/amazon
+---
+2015/12/25 18:42:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gp/homepage.html/uedata/unsticky/475-0215611-6610276/Gateway/ntpoffrw".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('gp/homepage.htm...')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/gp/homepage.html/uedata/unsticky/475-0215611-6610276/Gateway/ntpoffrw?at&v=0.189.0&id=1HP6A1VY7X4GKBDTRPXV&ctb=1&m=1&sc=1HP6A1VY7X4GKBDTRPXV&pc=1604&at=1604&t=1451040143437&bfform=1&bfnt=1&nrbf=0&bft=1&csmtags=iss-on-time&pty=Gateway&spty=desktop&pti=desktop&tid=1HP6A1VY7X4GKBDTRPXV&aftb=1&ui=2
+HTTP_REFERER=http://localhost/site/amazon
+---
+2015/12/25 18:42:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gp/deal/ajax/impressionTracker.html".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('gp/deal/ajax/im...')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/gp/deal/ajax/impressionTracker.html?sessionID=475-0215611-6610276&impressions={}
+HTTP_REFERER=http://localhost/site/amazon
+---
+2015/12/25 18:44:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ap/uedata".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('ap/uedata')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/ap/uedata?ld&v=0.832.1&id=SCCZNE8V1GMRDABJ1NJ6&sw=1920&sh=1080&vw=1920&vh=955&m=1&sc=SCCZNE8V1GMRDABJ1NJ6&ue=7&bb=72&cf=78&af=78&be=121&pc=130&tc=-282&na_=-282&ul_=-18&_ul=-18&rd_=-1451040268159&_rd=-1451040268159&fe_=-282&lk_=-282&_lk=-282&co_=-282&_co=-282&sc_=-1451040268159&rq_=-276&rs_=-22&_rs=14&dl_=-6&di_=120&de_=120&_de=127&_dc=128&ld_=128&_ld=-1451040268159&ntd=-2&ty=1&rc=0&hob=3&hoe=72&ld=131&t=1451040268290&ctb=1&rt=cf:5-2-2-1-1-0-1_af:5-2-2-1-1-0-1_ld:8-3-2-2-2-0-1&csmtags=ap-rt-100|fls-cn&viz=visible:6&pty=AuthenticationPortal&spty=SignInApplication&pti=null&aftb=1
+HTTP_REFERER=http://localhost/site/amazon
+---
+2015/12/25 18:44:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ap/uedata".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('ap/uedata')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/ap/uedata?at&v=0.832.1&id=SCCZNE8V1GMRDABJ1NJ6&ctb=1&m=1&sc=SCCZNE8V1GMRDABJ1NJ6&pc=669&at=669&t=1451040268828&pty=AuthenticationPortal&spty=SignInApplication&pti=null&aftb=1&ui=2
+HTTP_REFERER=http://localhost/site/amazon
+---
+2015/12/25 18:54:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ap/uedata".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('ap/uedata')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/ap/uedata?ld&v=0.832.1&id=HPMSK359CWCCF7NWAQPN&sw=1920&sh=1080&vw=1903&vh=276&m=1&sc=HPMSK359CWCCF7NWAQPN&ue=6&bb=49&cf=52&af=52&be=77&pc=133&tc=-276&na_=-276&ul_=-1451040880173&_ul=-1451040880173&rd_=-1451040880173&_rd=-1451040880173&fe_=-276&lk_=-276&_lk=-276&co_=-276&_co=-276&sc_=-1451040880173&rq_=-271&rs_=-49&_rs=-37&dl_=-4&di_=76&de_=76&_de=81&_dc=131&ld_=131&_ld=-1451040880173&ntd=-2&ty=2&rc=0&hob=3&hoe=49&ld=134&t=1451040880307&ctb=1&bfform=1&bfnt=1&bft=1&rt=cf:5-2-2-1-1-0-1_af:5-2-2-1-1-0-1_ld:8-3-2-2-2-0-1&csmtags=ap-rt-100|fls-cn&viz=visible:6&pty=AuthenticationPortal&spty=SignInApplication&pti=null&aftb=1
+HTTP_REFERER=http://localhost/site/amazon
+---
+2015/12/25 18:54:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ap/uedata".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('ap/uedata')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/ap/uedata?at&v=0.832.1&id=HPMSK359CWCCF7NWAQPN&ctb=1&m=1&sc=HPMSK359CWCCF7NWAQPN&pc=1297&at=1297&t=1451040881470&bfform=1&bfnt=1&bft=1&pty=AuthenticationPortal&spty=SignInApplication&pti=null&aftb=1&ui=2
+HTTP_REFERER=http://localhost/site/amazon
+---
+2015/12/25 19:03:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ap/uedata".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('ap/uedata')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/ap/uedata?ld&v=0.832.1&id=8SEBWK5EWHPDHNCC8P8M&sw=1920&sh=1080&vw=1920&vh=955&m=1&sc=8SEBWK5EWHPDHNCC8P8M&ue=6&bb=14&cf=22&af=22&be=40&pc=50&tc=-364&na_=-364&ul_=-1451041420928&_ul=-1451041420928&rd_=-1451041420928&_rd=-1451041420928&fe_=-363&lk_=-363&_lk=-363&co_=-363&_co=-363&sc_=-1451041420928&rq_=-351&rs_=-30&_rs=-24&dl_=-4&di_=39&de_=39&_de=47&_dc=48&ld_=48&_ld=-1451041420928&ntd=-2&ty=0&rc=0&hob=3&hoe=14&ld=52&t=1451041420980&ctb=1&rt=cf:6-3-2-1-2-6-1_af:6-3-2-1-2-6-1_ld:7-3-2-2-3-6-1&csmtags=ap-rt-100|fls-cn&viz=visible:6&pty=AuthenticationPortal&spty=SignInApplication&pti=null&aftb=1
+HTTP_REFERER=http://localhost/site/amazon
+---
+2015/12/25 19:03:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ap/uedata".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('ap/uedata')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/ap/uedata?at&v=0.832.1&id=8SEBWK5EWHPDHNCC8P8M&ctb=1&m=1&sc=8SEBWK5EWHPDHNCC8P8M&pc=319&at=319&t=1451041421247&pty=AuthenticationPortal&spty=SignInApplication&pti=null&aftb=1&ui=2
+HTTP_REFERER=http://localhost/site/amazon
+---
+2015/12/25 19:03:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ap/uedata".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('ap/uedata')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/ap/uedata?ld&v=0.832.1&id=PWZWKFQ6W9KSR6X6X7AW&sw=1920&sh=1080&vw=1920&vh=955&m=1&sc=PWZWKFQ6W9KSR6X6X7AW&ue=5&bb=31&cf=34&af=34&be=64&pc=72&tc=-274&na_=-274&ul_=-20&_ul=-13&rd_=-1451041436936&_rd=-1451041436936&fe_=-274&lk_=-274&_lk=-274&co_=-274&_co=-274&sc_=-1451041436936&rq_=-264&rs_=-21&_rs=15&dl_=-2&di_=64&de_=64&_de=70&_dc=71&ld_=71&_ld=-1451041436936&ntd=-1&ty=1&rc=0&hob=2&hoe=31&ld=72&t=1451041437008&ctb=1&rt=cf:4-1-2-1-1-3-1_af:4-1-2-1-1-3-1_ld:8-3-2-2-2-4-1&csmtags=ap-rt-100|fls-cn&viz=visible:4&pty=AuthenticationPortal&spty=SignInApplication&pti=null&aftb=1
+HTTP_REFERER=http://localhost/site/amazon
+---
+2015/12/25 19:03:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ap/uedata".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('ap/uedata')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/ap/uedata?at&v=0.832.1&id=PWZWKFQ6W9KSR6X6X7AW&ctb=1&m=1&sc=PWZWKFQ6W9KSR6X6X7AW&pc=1038&at=1038&t=1451041437974&pty=AuthenticationPortal&spty=SignInApplication&pti=null&aftb=1&ui=2
+HTTP_REFERER=http://localhost/site/amazon
+---
+2015/12/25 19:03:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ap/uedata".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('ap/uedata')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/ap/uedata?ld&v=0.832.1&id=0QZ10VK7BV2YGAD9H5NP&sw=1920&sh=1080&vw=1920&vh=955&m=1&sc=0QZ10VK7BV2YGAD9H5NP&ue=4&bb=21&cf=25&af=25&be=45&pc=58&tc=-272&na_=-272&ul_=-36&_ul=-23&rd_=-1451041439254&_rd=-1451041439254&fe_=-272&lk_=-272&_lk=-272&co_=-272&_co=-272&sc_=-1451041439254&rq_=-269&rs_=-37&_rs=-28&dl_=-8&di_=45&de_=45&_de=54&_dc=56&ld_=56&_ld=-1451041439254&ntd=-2&ty=1&rc=0&hob=2&hoe=21&ld=59&t=1451041439313&ctb=1&rt=cf:6-3-2-1-1-1-1_af:6-3-2-1-1-1-1_ld:8-3-2-2-2-2-1&csmtags=ap-rt-100|fls-cn&viz=visible:4&pty=AuthenticationPortal&spty=SignInApplication&pti=null&aftb=1
+HTTP_REFERER=http://localhost/site/amazon
+---
+2015/12/25 19:04:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ap/uedata".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('ap/uedata')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/ap/uedata?ld&v=0.832.1&id=Q8XAFA7SPC36V3Y12XRB&sw=1920&sh=1080&vw=1920&vh=955&m=1&sc=Q8XAFA7SPC36V3Y12XRB&ue=3&bb=21&cf=23&af=23&be=42&pc=51&tc=-265&na_=-265&ul_=-22&_ul=-15&rd_=-1451041440280&_rd=-1451041440280&fe_=-265&lk_=-265&_lk=-265&co_=-265&_co=-265&sc_=-1451041440280&rq_=-261&rs_=-24&_rs=10&dl_=-4&di_=42&de_=42&_de=48&_dc=49&ld_=49&_ld=-1451041440280&ntd=-2&ty=1&rc=0&hob=1&hoe=21&ld=52&t=1451041440332&ctb=1&rt=cf:3-0-2-1-1-3-1_af:3-0-2-1-1-3-1_ld:8-3-2-2-2-7-1&csmtags=ap-rt-100|fls-cn&viz=visible:3&pty=AuthenticationPortal&spty=SignInApplication&pti=null&aftb=1
+HTTP_REFERER=http://localhost/site/amazon
+---
+2015/12/25 19:04:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ap/uedata".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('ap/uedata')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/ap/uedata?at&v=0.832.1&id=Q8XAFA7SPC36V3Y12XRB&ctb=1&m=1&sc=Q8XAFA7SPC36V3Y12XRB&pc=500&at=500&t=1451041440780&pty=AuthenticationPortal&spty=SignInApplication&pti=null&aftb=1&ui=2
+HTTP_REFERER=http://localhost/site/amazon
+---
+2015/12/25 19:04:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ap/uedata".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('ap/uedata')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/ap/uedata?ld&v=0.832.1&id=TATZ2Z1SKPH3788WEHGG&sw=1920&sh=1080&vw=1920&vh=955&m=1&sc=TATZ2Z1SKPH3788WEHGG&ue=3&bb=17&cf=23&af=23&be=38&pc=47&tc=-291&na_=-291&ul_=-27&_ul=-15&rd_=-1451041461194&_rd=-1451041461194&fe_=-291&lk_=-291&_lk=-291&co_=-291&_co=-291&sc_=-1451041461194&rq_=-282&rs_=-28&_rs=-19&dl_=-6&di_=38&de_=38&_de=44&_dc=46&ld_=46&_ld=-1451041461194&ntd=-1&ty=1&rc=0&hob=2&hoe=17&ld=48&t=1451041461242&ctb=1&rt=cf:7-3-2-1-1-7-1_af:7-3-2-1-1-7-1_ld:8-3-2-2-2-7-1&csmtags=ap-rt-100|fls-cn&viz=visible:3&pty=AuthenticationPortal&spty=SignInApplication&pti=null&aftb=1&ui=2
+HTTP_REFERER=http://localhost/site/amazon
+---
+2015/12/25 19:04:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ap/uedata".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('ap/uedata')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/ap/uedata?ld&v=0.832.1&id=NMSQ9R36G659Q15MHHX0&sw=1920&sh=1080&vw=1920&vh=955&m=1&sc=NMSQ9R36G659Q15MHHX0&ue=4&bb=15&cf=18&af=18&be=109&pc=116&tc=-297&na_=-297&ul_=-37&_ul=-24&rd_=-1451041463728&_rd=-1451041463728&fe_=-297&lk_=-297&_lk=-297&co_=-297&_co=-297&sc_=-1451041463728&rq_=-293&rs_=-39&_rs=-31&dl_=-9&di_=109&de_=109&_de=114&_dc=115&ld_=115&_ld=-1451041463728&ntd=0&ty=1&rc=0&hob=2&hoe=15&ld=116&t=1451041463844&ctb=1&rt=cf:5-2-2-1-1-5-1_af:5-2-2-1-1-5-1_ld:8-3-2-2-3-6-1&csmtags=ap-rt-100|fls-cn&viz=visible:4&pty=AuthenticationPortal&spty=SignInApplication&pti=null&aftb=1
+HTTP_REFERER=http://localhost/site/amazon
+---
+2015/12/25 19:04:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ap/uedata".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('ap/uedata')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/ap/uedata?ld&v=0.832.1&id=P68KED5MZS0BKS9YT39W&sw=1920&sh=1080&vw=1920&vh=955&m=1&sc=P68KED5MZS0BKS9YT39W&ue=6&bb=18&cf=22&af=22&be=43&pc=50&tc=-270&na_=-270&ul_=-40&_ul=-23&rd_=-1451041464515&_rd=-1451041464515&fe_=-270&lk_=-270&_lk=-270&co_=-270&_co=-270&sc_=-1451041464515&rq_=-267&rs_=-42&_rs=-31&dl_=-2&di_=43&de_=43&_de=48&_dc=49&ld_=49&_ld=-1451041464515&ntd=-1&ty=1&rc=0&hob=3&hoe=18&ld=51&t=1451041464566&ctb=1&rt=cf:3-0-2-1-1-3-1_af:3-0-2-1-1-3-1_ld:8-3-2-2-2-7-1&csmtags=ap-rt-100|fls-cn&viz=visible:5&pty=AuthenticationPortal&spty=SignInApplication&pti=null&aftb=1
+HTTP_REFERER=http://localhost/site/amazon
+---
+2015/12/25 19:04:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ap/uedata".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('ap/uedata')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/ap/uedata?ld&v=0.832.1&id=ARA3ATR6ERTQE034PA70&sw=1920&sh=1080&vw=1920&vh=955&m=1&sc=ARA3ATR6ERTQE034PA70&ue=6&bb=19&cf=23&af=23&be=44&pc=55&tc=-259&na_=-259&ul_=-34&_ul=-19&rd_=-1451041464912&_rd=-1451041464912&fe_=-259&lk_=-259&_lk=-259&co_=-259&_co=-259&sc_=-1451041464912&rq_=-258&rs_=-35&_rs=-26&dl_=-4&di_=44&de_=44&_de=53&_dc=54&ld_=54&_ld=-1451041464912&ntd=-1&ty=1&rc=0&hob=4&hoe=19&ld=57&t=1451041464969&ctb=1&rt=cf:3-0-2-1-1-3-1_af:3-0-2-1-1-3-1_ld:7-3-2-2-2-6-1&csmtags=ap-rt-100|fls-cn&viz=visible:6&pty=AuthenticationPortal&spty=SignInApplication&pti=null&aftb=1
+HTTP_REFERER=http://localhost/site/amazon
+---
+2015/12/25 19:04:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ap/uedata".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('ap/uedata')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/ap/uedata?ld&v=0.832.1&id=FHQJEC0BHR0FN1JWCHR9&sw=1920&sh=1080&vw=1920&vh=955&m=1&sc=FHQJEC0BHR0FN1JWCHR9&ue=4&bb=19&cf=20&af=21&be=129&pc=140&tc=-280&na_=-280&ul_=-30&_ul=-17&rd_=-1451041465465&_rd=-1451041465465&fe_=-280&lk_=-280&_lk=-280&co_=-280&_co=-280&sc_=-1451041465465&rq_=-275&rs_=-41&_rs=-22&dl_=-7&di_=129&de_=129&_de=138&_dc=139&ld_=139&_ld=-1451041465465&ntd=0&ty=1&rc=0&hob=2&hoe=19&ld=141&t=1451041465606&ctb=1&rt=cf:3-0-2-1-1-3-1_af:3-0-2-1-1-3-1_ld:8-3-2-2-3-4-1&csmtags=ap-rt-100|fls-cn&viz=visible:3&pty=AuthenticationPortal&spty=SignInApplication&pti=null&aftb=1
+HTTP_REFERER=http://localhost/site/amazon
+---
+2015/12/25 19:04:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ap/uedata".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('ap/uedata')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/ap/uedata?ld&v=0.832.1&id=DR633K8XVZTRR6PCTAYQ&sw=1920&sh=1080&vw=1920&vh=955&m=1&sc=DR633K8XVZTRR6PCTAYQ&ue=4&bb=26&cf=30&af=30&be=47&pc=57&tc=-276&na_=-276&ul_=-37&_ul=-23&rd_=-1451041466436&_rd=-1451041466436&fe_=-276&lk_=-276&_lk=-276&co_=-276&_co=-276&sc_=-1451041466436&rq_=-270&rs_=-39&_rs=-5&dl_=-2&di_=47&de_=47&_de=54&_dc=56&ld_=56&_ld=-1451041466436&ntd=-1&ty=1&rc=0&hob=2&hoe=26&ld=57&t=1451041466493&ctb=1&rt=cf:6-3-2-1-1-4-1_af:6-3-2-1-1-4-1_ld:8-3-2-2-2-5-1&csmtags=ap-rt-100|fls-cn&viz=visible:4&pty=AuthenticationPortal&spty=SignInApplication&pti=null&aftb=1
+HTTP_REFERER=http://localhost/site/amazon
+---
+2015/12/25 19:04:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ap/uedata".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('ap/uedata')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/ap/uedata?ld&v=0.832.1&id=WFCFD921MZ3RE9XYYE0F&sw=1920&sh=1080&vw=1920&vh=955&m=1&sc=WFCFD921MZ3RE9XYYE0F&ue=2&bb=11&cf=15&af=15&be=133&pc=144&tc=-291&na_=-291&ul_=-33&_ul=-23&rd_=-1451041467275&_rd=-1451041467275&fe_=-291&lk_=-291&_lk=-291&co_=-291&_co=-291&sc_=-1451041467275&rq_=-284&rs_=-35&_rs=-25&dl_=-9&di_=133&de_=133&_de=142&_dc=142&ld_=143&_ld=-1451041467275&ntd=-1&ty=1&rc=0&hob=1&hoe=11&ld=145&t=1451041467420&ctb=1&rt=cf:3-0-2-1-1-3-1_af:3-0-2-1-1-3-1_ld:8-3-2-2-3-6-1&csmtags=ap-rt-100|fls-cn&viz=visible:2&pty=AuthenticationPortal&spty=SignInApplication&pti=null&aftb=1
+HTTP_REFERER=http://localhost/site/amazon
+---
+2015/12/25 19:04:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ap/uedata".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('ap/uedata')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/ap/uedata?ld&v=0.832.1&id=1M3PKCAV5XZJF19ZTGCJ&sw=1920&sh=1080&vw=1920&vh=955&m=1&sc=1M3PKCAV5XZJF19ZTGCJ&ue=5&bb=121&cf=131&af=132&be=154&pc=162&tc=-289&na_=-289&ul_=-27&_ul=-15&rd_=-1451041468329&_rd=-1451041468329&fe_=-289&lk_=-289&_lk=-289&co_=-289&_co=-289&sc_=-1451041468329&rq_=-284&rs_=-30&_rs=-21&dl_=-2&di_=155&de_=155&_de=161&_dc=161&ld_=161&_ld=-1451041468329&ntd=-1&ty=1&rc=0&hob=2&hoe=121&ld=163&t=1451041468492&ctb=1&rt=cf:7-3-2-2-3-4-1_af:7-3-2-2-3-4-1_ld:8-3-2-2-3-5-1&csmtags=ap-rt-200|fls-cn&viz=visible:5&pty=AuthenticationPortal&spty=SignInApplication&pti=null&aftb=1
+HTTP_REFERER=http://localhost/site/amazon
+---
+2015/12/25 19:04:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ap/uedata".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('ap/uedata')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/ap/uedata?ld&v=0.832.1&id=4AECX60DCBDR532E0MXC&sw=1920&sh=1080&vw=1920&vh=955&m=1&sc=4AECX60DCBDR532E0MXC&ue=6&bb=21&cf=26&af=26&be=55&pc=68&tc=-268&na_=-268&ul_=-32&_ul=-17&rd_=-1451041469468&_rd=-1451041469468&fe_=-268&lk_=-268&_lk=-268&co_=-268&_co=-268&sc_=-1451041469468&rq_=-264&rs_=-35&_rs=-27&dl_=-2&di_=55&de_=55&_de=65&_dc=66&ld_=67&_ld=-1451041469468&ntd=-1&ty=1&rc=0&hob=4&hoe=21&ld=69&t=1451041469537&ctb=1&rt=cf:6-3-2-1-1-6-1_af:6-3-2-1-1-6-1_ld:7-3-2-2-2-6-1&csmtags=ap-rt-100|fls-cn&viz=visible:6&pty=AuthenticationPortal&spty=SignInApplication&pti=null&aftb=1
+HTTP_REFERER=http://localhost/site/amazon
+---
+2015/12/25 19:04:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ap/uedata".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('ap/uedata')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/ap/uedata?ld&v=0.832.1&id=AMBVB4CQEN297RZ6CPCC&sw=1920&sh=1080&vw=1920&vh=955&m=1&sc=AMBVB4CQEN297RZ6CPCC&ue=6&bb=13&cf=17&af=17&be=46&pc=57&tc=-284&na_=-284&ul_=-41&_ul=-25&rd_=-1451041470748&_rd=-1451041470748&fe_=-284&lk_=-284&_lk=-284&co_=-284&_co=-284&sc_=-1451041470748&rq_=-278&rs_=-43&_rs=-31&dl_=-12&di_=46&de_=46&_de=53&_dc=56&ld_=56&_ld=-1451041470748&ntd=-1&ty=1&rc=0&hob=4&hoe=13&ld=58&t=1451041470806&ctb=1&rt=cf:2-0-2-0-1-2-1_af:2-0-2-0-1-2-1_ld:7-3-2-2-2-6-1&csmtags=ap-rt-100|fls-cn&viz=visible:6&pty=AuthenticationPortal&spty=SignInApplication&pti=null&aftb=1
+HTTP_REFERER=http://localhost/site/amazon
+---
+2015/12/25 19:04:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ap/uedata".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('ap/uedata')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/ap/uedata?ld&v=0.832.1&id=CB9ME8S8NNAGBECEGVQ0&sw=1920&sh=1080&vw=1920&vh=955&m=1&sc=CB9ME8S8NNAGBECEGVQ0&ue=8&bb=17&cf=20&af=20&be=36&pc=46&tc=-278&na_=-278&ul_=-36&_ul=-19&rd_=-1451041471670&_rd=-1451041471670&fe_=-278&lk_=-278&_lk=-278&co_=-278&_co=-278&sc_=-1451041471670&rq_=-274&rs_=-39&_rs=-15&dl_=-4&di_=36&de_=36&_de=42&_dc=45&ld_=45&_ld=-1451041471670&ntd=-1&ty=1&rc=0&hob=5&hoe=17&ld=47&t=1451041471717&ctb=1&rt=cf:3-0-2-1-1-3-1_af:3-0-2-1-1-3-1_ld:8-3-2-2-2-7-1&csmtags=ap-rt-100|fls-cn&viz=visible:8&pty=AuthenticationPortal&spty=SignInApplication&pti=null&aftb=1
+HTTP_REFERER=http://localhost/site/amazon
+---
+2015/12/25 19:04:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ap/uedata".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('ap/uedata')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/ap/uedata?ld&v=0.832.1&id=4BQQ6WXNYWCP4AD23VCZ&sw=1920&sh=1080&vw=1920&vh=955&m=1&sc=4BQQ6WXNYWCP4AD23VCZ&ue=7&bb=21&cf=25&af=25&be=45&pc=57&tc=-251&na_=-251&ul_=-29&_ul=-16&rd_=-1451041472420&_rd=-1451041472420&fe_=-251&lk_=-251&_lk=-251&co_=-251&_co=-251&sc_=-1451041472420&rq_=-245&rs_=-32&_rs=-24&dl_=-2&di_=45&de_=45&_de=54&_dc=56&ld_=56&_ld=-1451041472420&ntd=-1&ty=1&rc=0&hob=3&hoe=21&ld=58&t=1451041472478&ctb=1&rt=cf:5-2-2-1-1-5-1_af:5-2-2-1-1-5-1_ld:8-3-2-2-2-7-1&csmtags=ap-rt-100|fls-cn&viz=visible:6&pty=AuthenticationPortal&spty=SignInApplication&pti=null&aftb=1
+HTTP_REFERER=http://localhost/site/amazon
+---
+2015/12/25 19:04:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ap/uedata".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('ap/uedata')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/ap/uedata?ld&v=0.832.1&id=F04YXFZ00G2NSRJXXXYE&sw=1920&sh=1080&vw=1920&vh=955&m=1&sc=F04YXFZ00G2NSRJXXXYE&ue=4&bb=23&cf=26&af=27&be=129&pc=138&tc=-279&na_=-279&ul_=-37&_ul=-18&rd_=-1451041473247&_rd=-1451041473247&fe_=-279&lk_=-279&_lk=-279&co_=-279&_co=-279&sc_=-1451041473247&rq_=-274&rs_=-39&_rs=-26&dl_=-2&di_=130&de_=130&_de=137&_dc=138&ld_=138&_ld=-1451041473247&ntd=0&ty=1&rc=0&hob=2&hoe=23&ld=139&t=1451041473386&ctb=1&rt=cf:4-1-2-1-1-4-1_af:4-1-2-1-1-4-1_ld:8-3-2-2-3-5-1&csmtags=ap-rt-100|fls-cn&viz=visible:3&pty=AuthenticationPortal&spty=SignInApplication&pti=null&aftb=1
+HTTP_REFERER=http://localhost/site/amazon
+---
+2015/12/25 19:04:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ap/uedata".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('ap/uedata')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/ap/uedata?ld&v=0.832.1&id=DQ0B0S4P7BB9S7KS9FWM&sw=1920&sh=1080&vw=1920&vh=955&m=1&sc=DQ0B0S4P7BB9S7KS9FWM&ue=6&bb=21&cf=26&af=26&be=39&pc=51&tc=-284&na_=-284&ul_=-29&_ul=-15&rd_=-1451041474268&_rd=-1451041474268&fe_=-284&lk_=-284&_lk=-284&co_=-284&_co=-284&sc_=-1451041474268&rq_=-278&rs_=-32&_rs=-22&dl_=-1&di_=40&de_=40&_de=47&_dc=51&ld_=51&_ld=-1451041474268&ntd=0&ty=1&rc=0&hob=4&hoe=21&ld=52&t=1451041474320&ctb=1&rt=cf:6-3-2-1-1-6-1_af:6-3-2-1-1-6-1_ld:8-3-2-2-2-7-1&csmtags=ap-rt-100|fls-cn&viz=visible:6&pty=AuthenticationPortal&spty=SignInApplication&pti=null&aftb=1
+HTTP_REFERER=http://localhost/site/amazon
+---
+2015/12/25 19:04:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ap/uedata".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('ap/uedata')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/ap/uedata?ld&v=0.832.1&id=TNN8G6MZ486BJDFHCSXQ&sw=1920&sh=1080&vw=1920&vh=955&m=1&sc=TNN8G6MZ486BJDFHCSXQ&ue=4&bb=19&cf=22&af=22&be=46&pc=55&tc=-273&na_=-273&ul_=-35&_ul=-21&rd_=-1451041476431&_rd=-1451041476431&fe_=-273&lk_=-273&_lk=-273&co_=-273&_co=-273&sc_=-1451041476431&rq_=-266&rs_=-38&_rs=-32&dl_=-5&di_=47&de_=47&_de=53&_dc=54&ld_=54&_ld=-1451041476431&ntd=-1&ty=1&rc=0&hob=3&hoe=19&ld=56&t=1451041476487&ctb=1&rt=cf:2-0-2-0-1-2-1_af:2-0-2-0-1-2-1_ld:8-3-2-2-2-3-1&csmtags=ap-rt-100|fls-cn&viz=visible:4&pty=AuthenticationPortal&spty=SignInApplication&pti=null&aftb=1
+HTTP_REFERER=http://localhost/site/amazon
+---
+2015/12/25 19:04:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ap/uedata".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('ap/uedata')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/ap/uedata?at&v=0.832.1&id=TNN8G6MZ486BJDFHCSXQ&ctb=1&m=1&sc=TNN8G6MZ486BJDFHCSXQ&pc=582&at=582&t=1451041477013&pty=AuthenticationPortal&spty=SignInApplication&pti=null&aftb=1&ui=2
+HTTP_REFERER=http://localhost/site/amazon
+---
+2015/12/25 19:05:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ap/uedata".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('ap/uedata')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/ap/uedata?ld&v=0.832.1&id=7NGTAXYBHREEF07103N0&sw=1920&sh=1080&vw=1920&vh=955&m=1&sc=7NGTAXYBHREEF07103N0&ue=4&bb=99&cf=107&af=107&be=139&pc=150&tc=-275&na_=-275&ul_=-32&_ul=-18&rd_=-1451041505985&_rd=-1451041505985&fe_=-275&lk_=-275&_lk=-275&co_=-275&_co=-275&sc_=-1451041505985&rq_=-266&rs_=-34&_rs=-23&dl_=-6&di_=140&de_=140&_de=149&_dc=150&ld_=150&_ld=-1451041505985&ntd=-1&ty=1&rc=0&hob=2&hoe=99&ld=151&t=1451041506136&ctb=1&rt=cf:7-3-2-2-3-0-1_af:7-3-2-2-3-0-1_ld:7-3-2-2-3-0-0&csmtags=ap-rt-100|fls-cn&viz=visible:4&pty=AuthenticationPortal&spty=SignInApplication&pti=null&aftb=1
+HTTP_REFERER=http://localhost/site/amazon
+---
+2015/12/25 19:05:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ap/uedata".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('ap/uedata')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/ap/uedata?ld&v=0.832.1&id=KRVF2Y3SFDASG2SKS2CM&sw=1920&sh=1080&vw=1920&vh=955&m=1&sc=KRVF2Y3SFDASG2SKS2CM&ue=6&bb=36&cf=39&af=40&be=112&pc=119&tc=-264&na_=-264&ul_=-30&_ul=-15&rd_=-1451041507088&_rd=-1451041507088&fe_=-264&lk_=-264&_lk=-264&co_=-264&_co=-264&sc_=-1451041507088&rq_=-262&rs_=-32&_rs=-26&dl_=-1&di_=113&de_=113&_de=119&_dc=119&ld_=119&_ld=-1451041507088&ntd=0&ty=1&rc=0&hob=4&hoe=36&ld=120&t=1451041507208&ctb=1&rt=cf:5-2-2-1-1-0-1_af:5-2-2-1-1-0-1_ld:8-3-2-2-3-1-1&csmtags=ap-rt-100|fls-cn&viz=visible:6&pty=AuthenticationPortal&spty=SignInApplication&pti=null&aftb=1
+HTTP_REFERER=http://localhost/site/amazon
+---
+2015/12/25 19:05:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ap/uedata".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('ap/uedata')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/ap/uedata?ld&v=0.832.1&id=MKE6XH2DH2YQ09QD30F1&sw=1920&sh=1080&vw=1920&vh=955&m=1&sc=MKE6XH2DH2YQ09QD30F1&ue=6&bb=20&cf=23&af=23&be=51&pc=57&tc=-265&na_=-265&ul_=-31&_ul=-15&rd_=-1451041507487&_rd=-1451041507487&fe_=-265&lk_=-265&_lk=-265&co_=-265&_co=-265&sc_=-1451041507487&rq_=-254&rs_=-32&_rs=-24&dl_=-7&di_=52&de_=52&_de=57&_dc=57&ld_=57&_ld=-1451041507487&ntd=0&ty=1&rc=0&hob=4&hoe=20&ld=58&t=1451041507545&ctb=1&rt=cf:2-0-2-0-1-0-1_af:2-0-2-0-1-0-1_ld:8-3-2-2-2-1-1&csmtags=ap-rt-100|fls-cn&viz=visible:6&pty=AuthenticationPortal&spty=SignInApplication&pti=null&aftb=1
+HTTP_REFERER=http://localhost/site/amazon
+---
+2015/12/25 19:05:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ap/uedata".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('ap/uedata')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/ap/uedata?ld&v=0.832.1&id=CGACM2AXN36D07FMPTGG&sw=1920&sh=1080&vw=1920&vh=955&m=1&sc=CGACM2AXN36D07FMPTGG&ue=5&bb=23&cf=27&af=27&be=47&pc=57&tc=-261&na_=-261&ul_=-33&_ul=-19&rd_=-1451041507898&_rd=-1451041507898&fe_=-261&lk_=-261&_lk=-261&co_=-261&_co=-261&sc_=-1451041507898&rq_=-260&rs_=-34&_rs=-24&dl_=-5&di_=48&de_=48&_de=56&_dc=57&ld_=57&_ld=-1451041507898&ntd=0&ty=1&rc=0&hob=3&hoe=23&ld=58&t=1451041507956&ctb=1&rt=cf:6-3-2-1-1-0-1_af:6-3-2-1-1-0-1_ld:8-3-2-2-2-1-1&csmtags=ap-rt-100|fls-cn&viz=visible:4&pty=AuthenticationPortal&spty=SignInApplication&pti=null&aftb=1
+HTTP_REFERER=http://localhost/site/amazon
+---
+2015/12/25 19:05:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ap/uedata".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('ap/uedata')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/ap/uedata?at&v=0.832.1&id=CGACM2AXN36D07FMPTGG&ctb=1&m=1&sc=CGACM2AXN36D07FMPTGG&pc=661&at=661&t=1451041508559&pty=AuthenticationPortal&spty=SignInApplication&pti=null&aftb=1&ui=2
+HTTP_REFERER=http://localhost/site/amazon
+---
+2015/12/25 19:06:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ap/uedata".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('ap/uedata')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/ap/uedata?ld&v=0.832.1&id=N7AW21WTSAZYV8TJ9CF7&sw=1920&sh=1080&vw=1920&vh=955&m=1&sc=N7AW21WTSAZYV8TJ9CF7&ue=2&bb=44&cf=47&af=47&be=61&pc=79&tc=-275&na_=-275&ul_=-21&_ul=-15&rd_=-1451041575242&_rd=-1451041575242&fe_=-275&lk_=-275&_lk=-275&co_=-275&_co=-275&sc_=-1451041575242&rq_=-263&rs_=-25&_rs=-21&dl_=-4&di_=62&de_=62&_de=68&_dc=78&ld_=78&_ld=-1451041575242&ntd=-1&ty=1&rc=0&hob=2&hoe=44&ld=80&t=1451041575322&ctb=1&rt=cf:5-2-2-1-1-0-1_af:5-2-2-1-1-0-1_ld:8-3-2-2-2-1-1&csmtags=ap-rt-100|fls-cn&viz=visible:2&pty=AuthenticationPortal&spty=SignInApplication&pti=null&aftb=1
+HTTP_REFERER=http://localhost/site/amazon
+---
+2015/12/25 19:06:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ap/uedata".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('ap/uedata')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/ap/uedata?at&v=0.832.1&id=N7AW21WTSAZYV8TJ9CF7&ctb=1&m=1&sc=N7AW21WTSAZYV8TJ9CF7&pc=96&at=96&t=1451041575338&pty=AuthenticationPortal&spty=SignInApplication&pti=null&aftb=1&ui=2
+HTTP_REFERER=http://localhost/site/amazon
+---
+2015/12/25 19:06:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ap/uedata".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('ap/uedata')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/ap/uedata?ld&v=0.832.1&id=BT7AJ0RBVF7Y91EM870Y&sw=1920&sh=1080&vw=1920&vh=955&m=1&sc=BT7AJ0RBVF7Y91EM870Y&ue=7&bb=99&cf=104&af=104&be=130&pc=139&tc=-268&na_=-268&ul_=-24&_ul=-14&rd_=-1451041577571&_rd=-1451041577571&fe_=-268&lk_=-268&_lk=-268&co_=-268&_co=-268&sc_=-1451041577571&rq_=-264&rs_=-25&_rs=-20&dl_=-3&di_=130&de_=131&_de=137&_dc=138&ld_=138&_ld=-1451041577571&ntd=0&ty=1&rc=0&hob=3&hoe=99&ld=139&t=1451041577710&ctb=1&rt=cf:7-3-2-2-3-0-1_af:7-3-2-2-3-0-1_ld:7-3-2-2-3-0-1&csmtags=ap-rt-100|fls-cn&viz=visible:7&pty=AuthenticationPortal&spty=SignInApplication&pti=null&aftb=1
+HTTP_REFERER=http://localhost/site/amazon
+---
+2015/12/25 19:06:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ap/uedata".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('ap/uedata')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/ap/uedata?ld&v=0.832.1&id=FFPPMFMF4EN0JQ3EXFC6&sw=1920&sh=1080&vw=1920&vh=955&m=1&sc=FFPPMFMF4EN0JQ3EXFC6&ue=6&bb=53&cf=59&af=59&be=119&pc=130&tc=-270&na_=-270&ul_=-36&_ul=-19&rd_=-1451041578517&_rd=-1451041578517&fe_=-270&lk_=-270&_lk=-270&co_=-270&_co=-270&sc_=-1451041578517&rq_=-265&rs_=-39&_rs=-29&dl_=-2&di_=118&de_=118&_de=128&_dc=128&ld_=128&_ld=-1451041578517&ntd=-1&ty=1&rc=0&hob=3&hoe=53&ld=131&t=1451041578648&ctb=1&rt=cf:5-2-2-1-1-0-1_af:5-2-2-1-1-0-1_ld:8-3-2-2-3-1-1&csmtags=ap-rt-100|fls-cn&viz=visible:5&pty=AuthenticationPortal&spty=SignInApplication&pti=null&aftb=1
+HTTP_REFERER=http://localhost/site/amazon
+---
+2015/12/25 19:06:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ap/uedata".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('ap/uedata')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/ap/uedata?ld&v=0.832.1&id=4YEAV89M610V7S7P3ZD0&sw=1920&sh=1080&vw=1920&vh=955&m=1&sc=4YEAV89M610V7S7P3ZD0&ue=4&bb=48&cf=55&af=55&be=85&pc=98&tc=-310&na_=-310&ul_=-39&_ul=-21&rd_=-1451041579478&_rd=-1451041579478&fe_=-310&lk_=-310&_lk=-310&co_=-310&_co=-310&sc_=-1451041579478&rq_=-302&rs_=-43&_rs=-33&dl_=-3&di_=85&de_=85&_de=93&_dc=97&ld_=97&_ld=-1451041579478&ntd=-1&ty=1&rc=0&hob=3&hoe=48&ld=99&t=1451041579577&ctb=1&rt=cf:5-3-2-0-1-0-1_af:5-3-2-0-1-0-1_ld:8-3-2-2-3-1-1&csmtags=ap-rt-100|fls-cn&viz=visible:4&pty=AuthenticationPortal&spty=SignInApplication&pti=null&aftb=1
+HTTP_REFERER=http://localhost/site/amazon
+---
+2015/12/25 19:06:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ap/uedata".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('ap/uedata')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/ap/uedata?at&v=0.832.1&id=4YEAV89M610V7S7P3ZD0&ctb=1&m=1&sc=4YEAV89M610V7S7P3ZD0&pc=432&at=432&t=1451041579910&pty=AuthenticationPortal&spty=SignInApplication&pti=null&aftb=1&ui=2
+HTTP_REFERER=http://localhost/site/amazon
+---
+2015/12/25 19:06:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ap/uedata".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('ap/uedata')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/ap/uedata?ld&v=0.832.1&id=GN9272EAM7V0EJADNE3E&sw=1920&sh=1080&vw=1920&vh=955&m=1&sc=GN9272EAM7V0EJADNE3E&ue=2&bb=47&cf=50&af=50&be=67&pc=77&tc=-273&na_=-273&ul_=-23&_ul=-14&rd_=-1451041580042&_rd=-1451041580042&fe_=-273&lk_=-273&_lk=-273&co_=-273&_co=-273&sc_=-1451041580042&rq_=-265&rs_=-27&_rs=-17&dl_=-3&di_=66&de_=66&_de=73&_dc=75&ld_=75&_ld=-1451041580042&ntd=-2&ty=1&rc=0&hob=1&hoe=47&ld=78&t=1451041580120&ctb=1&rt=cf:6-3-2-1-1-0-1_af:6-3-2-1-1-0-1_ld:8-3-2-2-2-1-1&csmtags=ap-rt-100|fls-cn&viz=visible:2&pty=AuthenticationPortal&spty=SignInApplication&pti=null&aftb=1
+HTTP_REFERER=http://localhost/site/amazon
+---
+2015/12/25 19:06:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ap/uedata".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('ap/uedata')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/ap/uedata?at&v=0.832.1&id=GN9272EAM7V0EJADNE3E&ctb=1&m=1&sc=GN9272EAM7V0EJADNE3E&pc=116&at=116&t=1451041580158&pty=AuthenticationPortal&spty=SignInApplication&pti=null&aftb=1&ui=2
+HTTP_REFERER=http://localhost/site/amazon
+---
+2015/12/25 19:06:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ap/uedata".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('ap/uedata')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/ap/uedata?ld&v=0.832.1&id=66M3PADMAGS0A173RH90&sw=1920&sh=1080&vw=1920&vh=955&m=1&sc=66M3PADMAGS0A173RH90&ue=4&bb=130&cf=141&af=142&be=169&pc=180&tc=-293&na_=-293&ul_=-30&_ul=-20&rd_=-1451041590820&_rd=-1451041590820&fe_=-293&lk_=-293&_lk=-293&co_=-293&_co=-293&sc_=-1451041590820&rq_=-290&rs_=-32&_rs=-23&dl_=-8&di_=168&de_=168&_de=177&_dc=178&ld_=178&_ld=-1451041590820&ntd=-1&ty=1&rc=0&hob=1&hoe=130&ld=181&t=1451041591001&ctb=1&rt=cf:6-3-2-1-2-0-1_af:6-3-2-1-2-0-1_ld:7-3-2-2-3-0-1&csmtags=ap-rt-200|fls-cn&viz=visible:4&pty=AuthenticationPortal&spty=SignInApplication&pti=null&aftb=1
+HTTP_REFERER=http://localhost/site/amazon
+---
+2015/12/25 19:06:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ap/uedata".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('ap/uedata')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/ap/uedata?ld&v=0.832.1&id=C8RJT165FPV58MN34ZXT&sw=1920&sh=1080&vw=1920&vh=955&m=1&sc=C8RJT165FPV58MN34ZXT&ue=3&bb=47&cf=48&af=48&be=62&pc=75&tc=-272&na_=-272&ul_=-17&_ul=-13&rd_=-1451041591832&_rd=-1451041591832&fe_=-272&lk_=-272&_lk=-272&co_=-272&_co=-272&sc_=-1451041591832&rq_=-266&rs_=-20&_rs=-12&dl_=-7&di_=61&de_=61&_de=69&_dc=73&ld_=73&_ld=-1451041591832&ntd=-2&ty=1&rc=0&hob=2&hoe=47&ld=76&t=1451041591908&ctb=1&rt=cf:6-3-2-1-1-0-1_af:6-3-2-1-1-0-1_ld:8-3-2-2-2-1-1&csmtags=ap-rt-100|fls-cn&viz=visible:3&pty=AuthenticationPortal&spty=SignInApplication&pti=null&aftb=1
+HTTP_REFERER=http://localhost/site/amazon
+---
+2015/12/25 19:06:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ap/uedata".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('ap/uedata')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/ap/uedata?at&v=0.832.1&id=C8RJT165FPV58MN34ZXT&ctb=1&m=1&sc=C8RJT165FPV58MN34ZXT&pc=679&at=679&t=1451041592511&pty=AuthenticationPortal&spty=SignInApplication&pti=null&aftb=1&ui=2
+HTTP_REFERER=http://localhost/site/amazon
+---
+2015/12/25 19:07:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ap/uedata".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('ap/uedata')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/ap/uedata?ld&v=0.832.1&id=SG1TTZSQGPVT96RVNGQV&sw=1920&sh=1080&vw=1920&vh=955&m=1&sc=SG1TTZSQGPVT96RVNGQV&ue=7&bb=48&cf=64&af=64&be=82&pc=132&tc=-265&na_=-265&ul_=-35&_ul=-21&rd_=-1451041633656&_rd=-1451041633656&fe_=-265&lk_=-265&_lk=-265&co_=-265&_co=-265&sc_=-1451041633656&rq_=-257&rs_=-38&_rs=-27&dl_=-1&di_=82&de_=82&_de=89&_dc=132&ld_=132&_ld=-1451041633656&ntd=0&ty=1&rc=0&hob=2&hoe=48&ld=133&t=1451041633789&ctb=1&rt=cf:7-3-2-2-2-0-1_af:7-3-2-2-2-0-1_ld:8-3-2-2-2-0-1&csmtags=ap-rt-100|fls-cn&viz=visible:5&pty=AuthenticationPortal&spty=SignInApplication&pti=null&aftb=1
+HTTP_REFERER=http://localhost/site/amazon
+---
+2015/12/25 19:07:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ap/uedata".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('ap/uedata')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/ap/uedata?at&v=0.832.1&id=SG1TTZSQGPVT96RVNGQV&ctb=1&m=1&sc=SG1TTZSQGPVT96RVNGQV&pc=702&at=702&t=1451041634358&pty=AuthenticationPortal&spty=SignInApplication&pti=null&aftb=1&ui=2
+HTTP_REFERER=http://localhost/site/amazon
+---
+2015/12/25 19:08:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ap/uedata".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('ap/uedata')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/ap/uedata?ld&v=0.832.1&id=6W711D1DN89KJ82FS9JR&sw=1920&sh=1080&vw=1903&vh=276&m=1&sc=6W711D1DN89KJ82FS9JR&ue=2&bb=227&cf=235&af=235&be=263&pc=374&tc=-291&na_=-291&ul_=-33&_ul=-24&rd_=-1451041694260&_rd=-1451041694260&fe_=-291&lk_=-285&_lk=-285&co_=-285&_co=-284&sc_=-1451041694260&rq_=-284&rs_=-36&_rs=-31&dl_=-11&di_=255&de_=255&_de=264&_dc=365&ld_=365&_ld=-1451041694260&ntd=-9&ty=1&rc=0&hob=1&hoe=227&ld=375&t=1451041694635&ctb=1&rt=cf:7-3-2-2-3-0-1_af:7-3-2-2-3-0-1_ld:8-3-2-2-3-0-1&csmtags=ap-rt-300|fls-cn&viz=visible:2&pty=AuthenticationPortal&spty=SignInApplication&pti=null&aftb=1&ui=3
+HTTP_REFERER=http://localhost/site/amazon
+---
+2015/12/25 19:10:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ap/uedata".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('ap/uedata')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/ap/uedata?ld&v=0.832.1&id=B8AKC8SX3S1WVS3C4BQM&sw=1920&sh=1080&vw=1920&vh=276&m=1&sc=B8AKC8SX3S1WVS3C4BQM&ue=2&bb=122&be=148&pc=153&tc=-334&na_=-334&ul_=-17&_ul=-11&rd_=-1451041808817&_rd=-1451041808817&fe_=-334&lk_=-332&_lk=-332&co_=-332&_co=-332&sc_=-1451041808817&rq_=-332&rs_=-18&_rs=-14&dl_=-3&di_=148&de_=148&_de=151&_dc=151&ld_=151&_ld=-1451041808817&ntd=-1&ty=1&rc=0&hob=1&hoe=123&ld=153&t=1451041808970&ctb=1&rt=__ld:8-2-2-4-3-0-1&csmtags=fls-cn&viz=visible:2&pty=AuthenticationPortal&spty=Error404Page&pti=null&aftb=1
+HTTP_REFERER=http://localhost/site/amazon
+---
+2015/12/25 19:10:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ap/uedata".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('ap/uedata')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/ap/uedata?at&v=0.832.1&id=B8AKC8SX3S1WVS3C4BQM&ctb=1&m=1&sc=B8AKC8SX3S1WVS3C4BQM&pc=981&at=981&t=1451041809798&pty=AuthenticationPortal&spty=Error404Page&pti=null&aftb=1&ui=2
+HTTP_REFERER=http://localhost/site/amazon
+---
+2015/12/25 19:37:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ap/uedata".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('ap/uedata')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/ap/uedata?ld&v=0.832.1&id=7BJFAGCM65NQ25SXN8GH&sw=1920&sh=1080&vw=1920&vh=583&m=1&sc=7BJFAGCM65NQ25SXN8GH&ue=2&bb=99&cf=104&af=104&be=125&pc=181&tc=-536&na_=-536&ul_=-62&_ul=-57&rd_=-1451043423397&_rd=-1451043423397&fe_=-536&lk_=-531&_lk=-531&co_=-531&_co=-530&sc_=-1451043423397&rq_=-530&rs_=-72&_rs=-65&dl_=-44&di_=125&de_=125&_de=132&_dc=180&ld_=180&_ld=-1451043423397&ntd=0&ty=1&rc=0&hob=1&hoe=99&ld=184&t=1451043423581&ctb=1&rt=cf:3-0-2-1-2-0-1_af:3-0-2-1-2-0-1_ld:8-3-2-2-2-0-1&csmtags=ap-rt-100|fls-cn&viz=visible:2&pty=AuthenticationPortal&spty=SignInApplication&pti=null&aftb=1
+HTTP_REFERER=http://localhost/site/amazon
+---
+2015/12/25 19:37:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ap/uedata".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('ap/uedata')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/ap/uedata?ld&v=0.832.1&id=1SRB7JXQ1HKG30Z68BYH&sw=1920&sh=1080&vw=1920&vh=583&m=1&sc=1SRB7JXQ1HKG30Z68BYH&ue=5&bb=19&cf=27&af=27&be=44&pc=89&tc=-487&na_=-487&ul_=-45&_ul=-31&rd_=-1451043425638&_rd=-1451043425638&fe_=-487&lk_=-487&_lk=-487&co_=-487&_co=-487&sc_=-1451043425638&rq_=-483&rs_=-53&_rs=-50&dl_=-18&di_=45&de_=45&_de=52&_dc=89&ld_=89&_ld=-1451043425638&ntd=-1&ty=1&rc=0&hob=4&hoe=19&ld=90&t=1451043425728&ctb=1&rt=cf:6-3-2-1-1-0-1_af:6-3-2-1-1-0-1_ld:8-3-2-2-2-0-1&csmtags=ap-rt-100|fls-cn&viz=visible:5&pty=AuthenticationPortal&spty=SignInApplication&pti=null&aftb=1
+HTTP_REFERER=http://localhost/site/amazon
+---
+2015/12/25 19:37:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ap/uedata".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('ap/uedata')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/ap/uedata?ld&v=0.832.1&id=CSP1079EXYQTTVQ7WKHX&sw=1920&sh=1080&vw=1920&vh=583&m=1&sc=CSP1079EXYQTTVQ7WKHX&ue=3&bb=34&cf=43&af=44&be=269&pc=284&tc=-433&na_=-433&ul_=-27&_ul=-15&rd_=-1451043428509&_rd=-1451043428509&fe_=-433&lk_=-433&_lk=-433&co_=-433&_co=-433&sc_=-1451043428509&rq_=-430&rs_=-30&_rs=-26&dl_=-3&di_=272&de_=272&_de=278&_dc=283&ld_=283&_ld=-1451043428509&ntd=0&ty=1&rc=0&hob=2&hoe=34&ld=285&t=1451043428794&ctb=1&rt=cf:6-2-2-2-2-0-1_af:6-2-2-2-2-0-1_ld:8-3-2-2-3-0-1&csmtags=ap-rt-100|fls-cn&viz=visible:3&pty=AuthenticationPortal&spty=SignInApplication&pti=null&aftb=1
+HTTP_REFERER=http://localhost/site/amazon
+---
+2015/12/25 19:37:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ap/uedata".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('ap/uedata')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/ap/uedata?ld&v=0.832.1&id=B5P8NFV94EVHQTAEDP8S&sw=1920&sh=1080&vw=1920&vh=583&m=1&sc=B5P8NFV94EVHQTAEDP8S&ue=3&bb=42&cf=46&af=47&be=65&pc=101&tc=-427&na_=-427&ul_=-15&_ul=-10&rd_=-1451043430844&_rd=-1451043430844&fe_=-427&lk_=-427&_lk=-427&co_=-427&_co=-427&sc_=-1451043430844&rq_=-423&rs_=-22&_rs=-18&dl_=-3&di_=64&de_=64&_de=73&_dc=100&ld_=100&_ld=-1451043430844&ntd=-1&ty=1&rc=0&hob=1&hoe=42&ld=102&t=1451043430946&ctb=1&rt=cf:7-3-2-2-2-0-1_af:7-3-2-2-2-0-1_ld:8-3-2-2-2-0-1&csmtags=ap-rt-100|fls-cn&viz=visible:3&pty=AuthenticationPortal&spty=SignInApplication&pti=null&aftb=1
+HTTP_REFERER=http://localhost/site/amazon
+---
+2015/12/25 19:37:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ap/uedata".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('ap/uedata')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/ap/uedata?ld&v=0.832.1&id=530471X8YHJWX6FV1A7A&sw=1920&sh=1080&vw=1920&vh=583&m=1&sc=530471X8YHJWX6FV1A7A&ue=8&bb=36&cf=43&af=43&be=62&pc=103&tc=-485&na_=-485&ul_=-40&_ul=-25&rd_=-1451043433055&_rd=-1451043433055&fe_=-485&lk_=-485&_lk=-485&co_=-485&_co=-485&sc_=-1451043433055&rq_=-480&rs_=-44&_rs=-39&dl_=-4&di_=63&de_=63&_de=70&_dc=102&ld_=102&_ld=-1451043433055&ntd=0&ty=1&rc=0&hob=4&hoe=36&ld=103&t=1451043433158&ctb=1&rt=cf:5-2-2-1-1-0-1_af:5-2-2-1-1-0-1_ld:8-3-2-2-2-0-1&csmtags=ap-rt-100|fls-cn&viz=visible:8&pty=AuthenticationPortal&spty=SignInApplication&pti=null&aftb=1
+HTTP_REFERER=http://localhost/site/amazon
+---
+2015/12/25 19:37:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ap/uedata".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('ap/uedata')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/ap/uedata?at&v=0.832.1&id=530471X8YHJWX6FV1A7A&ctb=1&m=1&sc=530471X8YHJWX6FV1A7A&pc=1248&at=1249&t=1451043434304&pty=AuthenticationPortal&spty=SignInApplication&pti=null&aftb=1&ui=2
+HTTP_REFERER=http://localhost/site/amazon
+---
+2015/12/25 19:38:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ap/uedata".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('ap/uedata')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/ap/uedata?ld&v=0.832.1&id=JKBQMNBAEAPTBFPX2VWY&sw=1920&sh=1080&vw=1920&vh=583&m=1&sc=JKBQMNBAEAPTBFPX2VWY&ue=3&bb=233&be=254&pc=276&tc=-530&na_=-530&ul_=-42&_ul=-31&rd_=-1451043480422&_rd=-1451043480422&fe_=-530&lk_=-528&_lk=-528&co_=-528&_co=-528&sc_=-1451043480422&rq_=-528&rs_=-53&_rs=-50&dl_=-19&di_=255&de_=255&_de=259&_dc=275&ld_=275&_ld=-1451043480422&ntd=0&ty=1&rc=0&hob=1&hoe=233&ld=276&t=1451043480698&ctb=1&rt=__ld:8-2-2-4-2-0-1&csmtags=fls-cn&viz=visible:2&pty=AuthenticationPortal&spty=Error404Page&pti=null&aftb=1
+HTTP_REFERER=http://localhost/site/amazon
+---
+2015/12/25 19:38:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ap/uedata".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('ap/uedata')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/ap/uedata?at&v=0.832.1&id=JKBQMNBAEAPTBFPX2VWY&ctb=1&m=1&sc=JKBQMNBAEAPTBFPX2VWY&pc=1211&at=1211&t=1451043481633&pty=AuthenticationPortal&spty=Error404Page&pti=null&aftb=1&ui=2
+HTTP_REFERER=http://localhost/site/amazon
+---
+2015/12/25 19:39:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ap/uedata".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('ap/uedata')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/ap/uedata?ld&v=0.832.1&id=EEPBKE9Q7TVKC6HKQM70&sw=1920&sh=1080&vw=1920&vh=583&m=1&sc=EEPBKE9Q7TVKC6HKQM70&ue=3&bb=82&be=104&pc=108&tc=-526&na_=-526&ul_=-32&_ul=-25&rd_=-1451043543202&_rd=-1451043543202&fe_=-526&lk_=-523&_lk=-523&co_=-523&_co=-522&sc_=-1451043543202&rq_=-522&rs_=-42&_rs=-36&dl_=-17&di_=104&de_=104&_de=108&_dc=108&ld_=108&_ld=-1451043543202&ntd=-1&ty=1&rc=0&hob=2&hoe=82&ld=109&t=1451043543311&ctb=1&rt=__ld:8-2-2-4-2-0-1&csmtags=fls-cn&viz=visible:3&pty=AuthenticationPortal&spty=Error404Page&pti=null&aftb=1
+HTTP_REFERER=http://localhost/site/amazon
+---
+2015/12/25 19:39:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ap/uedata".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('ap/uedata')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/ap/uedata?at&v=0.832.1&id=EEPBKE9Q7TVKC6HKQM70&ctb=1&m=1&sc=EEPBKE9Q7TVKC6HKQM70&pc=261&at=262&t=1451043543464&pty=AuthenticationPortal&spty=Error404Page&pti=null&aftb=1&ui=2
+HTTP_REFERER=http://localhost/site/amazon
+---
+2015/12/25 19:39:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ap/uedata".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('ap/uedata')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/ap/uedata?ld&v=0.832.1&id=M04NVE75HRCETY8A8DDT&sw=1920&sh=1080&vw=1920&vh=583&m=1&sc=M04NVE75HRCETY8A8DDT&ue=3&bb=31&be=48&pc=54&tc=-453&na_=-453&ul_=-21&_ul=-16&rd_=-1451043545676&_rd=-1451043545676&fe_=-453&lk_=-453&_lk=-453&co_=-453&_co=-453&sc_=-1451043545676&rq_=-451&rs_=-25&_rs=-24&dl_=-5&di_=49&de_=49&_de=53&_dc=53&ld_=53&_ld=-1451043545676&ntd=0&ty=1&rc=0&hob=1&hoe=31&ld=54&t=1451043545730&ctb=1&rt=__ld:8-2-2-4-2-0-1&csmtags=fls-cn&viz=visible:2&pty=AuthenticationPortal&spty=Error404Page&pti=null&aftb=1
+HTTP_REFERER=http://localhost/site/amazon
+---
+2015/12/25 19:39:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ap/uedata".' in E:\www\eileengrays\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\www\eileengrays\framework\web\CWebApplication.php(141): CWebApplication->runController('ap/uedata')
+#1 E:\www\eileengrays\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 E:\www\eileengrays\apps\eileengrays\public\index.php(12): CApplication->run()
+#3 {main}
+REQUEST_URI=/ap/uedata?at&v=0.832.1&id=M04NVE75HRCETY8A8DDT&ctb=1&m=1&sc=M04NVE75HRCETY8A8DDT&pc=1010&at=1011&t=1451043546687&pty=AuthenticationPortal&spty=Error404Page&pti=null&aftb=1&ui=2
+HTTP_REFERER=http://localhost/site/amazon
+---

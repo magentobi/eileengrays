@@ -29,7 +29,7 @@ return array(
 
     'sourceLanguage'=>'en_us',
 //    'language'=>'zh_cn',
-    'defaultController' => 'index',
+    'defaultController' => 'site',
     // application components
     'components' => CMap::mergeArray(require(dirname(__FILE__) . '/components.php'),array(
         'user' => array(
